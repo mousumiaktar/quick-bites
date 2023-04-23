@@ -69,7 +69,7 @@
                 "price":162,
                 "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/mithai/items/mithai_kacha_golla_thumbnail_1669133145923.jpeg"
             },
-            {
+            {   "id":5,
                 "fname":"Mithai Rosh Malai",
                 "ftype":"Sweets",
                 "price":275,
@@ -77,4 +77,5 @@
             }
         ]
     }
+    
 ]

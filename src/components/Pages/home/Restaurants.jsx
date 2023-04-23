@@ -11,7 +11,7 @@ const Restaurants = () => {
                     />
                     <div className="mt-2 p-2">
                         <div className="flex justify-between items-center">
-                            <h1 className="font-bold">Mozahid Restaurant</h1>
+                            <h1 className="font-bold">Ridima Restaurant</h1>
                             <div className="flex gap-2 items-center">
                                 <AiFillStar className="text-yellow-500"></AiFillStar>
                                 <p>3.7</p>
@@ -27,7 +27,7 @@ const Restaurants = () => {
                     />
                     <div className="mt-2 p-2">
                         <div className="flex justify-between items-center">
-                            <h1 className="font-bold">Mozahid Restaurant</h1>
+                            <h1 className="font-bold">Ridima Restaurant</h1>
                             <div className="flex gap-2 items-center">
                                 <AiFillStar className="text-yellow-500"></AiFillStar>
                                 <p>3.7</p>
@@ -43,7 +43,7 @@ const Restaurants = () => {
                     />
                     <div className="mt-2 p-2">
                         <div className="flex justify-between items-center">
-                            <h1 className="font-bold">Mozahid Restaurant</h1>
+                            <h1 className="font-bold">Ridima Restaurant</h1>
                             <div className="flex gap-2 items-center">
                                 <AiFillStar className="text-yellow-500"></AiFillStar>
                                 <p>3.7</p>
@@ -59,7 +59,7 @@ const Restaurants = () => {
                     />
                     <div className="mt-2 p-2">
                         <div className="flex justify-between items-center">
-                            <h1 className="font-bold">Mozahid Restaurant</h1>
+                            <h1 className="font-bold">Ridima Restaurant</h1>
                             <div className="flex gap-2 items-center">
                                 <AiFillStar className="text-yellow-500"></AiFillStar>
                                 <p>3.7</p>
