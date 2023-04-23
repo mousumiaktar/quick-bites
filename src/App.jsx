@@ -3,6 +3,7 @@ import Register from "./components/Pages/Authentication/Register"
 import LogIn from "./components/Pages/Authentication/LogIn"
 import Home from "./components/Pages/home/Home"
 import Navbar from "./components/shared/Navbar"
+import Footer from "./components/shared/Footer"
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/login" element={<LogIn />}></Route>
         <Route path="/register" element={<Register />}></Route>
       </Routes>
+      <Footer />
     </>
   )
 }
