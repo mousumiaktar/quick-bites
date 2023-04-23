@@ -1,7 +1,9 @@
+import SearchHero from "./OthersDesign/SearchHero";
+
 const Home = () => {
     return (
         <div>
-            
+            <SearchHero />
         </div>
     );
 };
