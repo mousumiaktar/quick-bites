@@ -1,7 +1,6 @@
 const SearchHero = () => {
     return (
-        <div
-            className="py-48 px-12"
+        <div className="py-48 px-12"
             style={{
                 backgroundImage: `url("https://winsfolio.net/html/foodio/assets/img/hero-1.jpg")`,
             }}
