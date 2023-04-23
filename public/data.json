@@ -1,40 +1,79 @@
 [
-    {
+    {   "id":1,
         "resname":"Tasty Treat",
         "location":"Sonir Akhra",
         "resimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/meta/tasty_treat_cover_1640143913547.jpeg",
         "minOrder":"TK.100",
         "delfee":36,
         "food":[
-            {
+            {   "id":1,
                 "fname":"Cold Chicken Sandwich",
                 "ftype":"Sandwich",
                 "price":110,
                 "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_cold_chicken_sandwich_150gm_thumbnail_1650180282455.jpeg"
             },
-            {
+            {   "id":2,
                 "fname":"Vanilla Pastry 50gm",
                 "ftype":"Pastry",
                 "price":85,
                 "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_vanilla_pastry_50gm_thumbnail_1653216767677.jpeg" 
             },
-            {
+            {   "id":3,
                 "fname":"Mexican Mini Burger",
                 "ftype":"Sandwich",
                 "price":80,
                 "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_mexican_mini_burger_thumbnail_1650180455446.jpeg"
             },
-            {
+            {   "id":4,
                 "fname":"Sausage Delight Pizza",
                 "ftype":"Sancks",
                 "price":85,
                 "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_sausage_delight_pizza_thumbnail_1650180369537.jpeg"
             },
-            {
+            {   "id":5,
                 "fname":"Red Velvet Premium Cake",
                 "ftype":"Cake",
                 "price":950,
                 "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_premium_red_velvet_cake_500gm_thumbnail_1653216687303.jpeg"
+            }
+        ]
+    },
+    {   "id":2,
+        "resname":"Mithai",
+        "location":"Donia",
+        "resimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/mithai/meta/mithai_cover_1637814953936.jpeg",
+        "minOrder":"TK.100",
+        "delfee":36,
+        "food":[
+            {   "id":1,
+                "fname":"Mithai Chicken Loaf",
+                "ftype":"Sanacks",
+                "price":90,
+                "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/mithai/items/mithai_mithai_chicken_loaf_thumbnail_1669121462898.jpeg"
+            },
+            {   "id":2,
+                "fname":"Mithai Patishapta Pitha",
+                "ftype":"Sanacks",
+                "price":40,
+                "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/mithai/items/mithai_mithai_patishapta_pitha_thumbnail_1669134471852.jpeg" 
+            },
+            {   "id":3,
+                "fname":"Mithai Nakshi Pitha",
+                "ftype":"Pitha",
+                "price":35,
+                "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/mithai/items/mithai_nakshi_pitha_thumbnail_1669134375330.jpeg"
+            },
+            {   "id":4,
+                "fname":"Mithai Kacha Golla",
+                "ftype":"Sweets",
+                "price":162,
+                "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/mithai/items/mithai_kacha_golla_thumbnail_1669133145923.jpeg"
+            },
+            {
+                "fname":"Mithai Rosh Malai",
+                "ftype":"Sweets",
+                "price":275,
+                "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/mithai/items/mithai_mithai_rosh_malai_thumbnail_1669133878642.jpeg"
             }
         ]
     }

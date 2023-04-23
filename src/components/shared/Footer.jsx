@@ -25,8 +25,8 @@ const Footer = () => {
                 </div>
                 <div className="mt-6">
                     <h2 className="font-bold text-2xl mb-2">Contact:</h2>
-                    <p>mozahidwebmin11d1-@gmail.com</p>
-                    <p>+8801614853207</p>
+                    <p>ridimarahmanmou5804@gail.com</p>
+                    <p>+880 1784-056496</p>
                 </div>
             </div>
             <div className="grid justify-center">
