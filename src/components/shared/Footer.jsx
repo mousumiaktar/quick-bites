@@ -3,7 +3,7 @@ const Footer = () => {
         <div className="bg-black text-white py-2">
             <div className="grid  lg:grid-cols-4  md:grid-cols-2 sm:grid-cols-1 px-6 py-6">
                 <div className="mt-6">
-                    <h1 className="text-3xl font-bold">PANDAMI</h1>
+                    <h1 className="text-3xl font-bold">Quick Bites</h1>
                 </div>
                 <div className="mt-6">
                     <h2 className="font-bold text-2xl mb-2">Company:</h2>
