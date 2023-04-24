@@ -2,6 +2,7 @@
     {   "id":1,
         "resname":"Tasty Treat",
         "location":"Sonir Akhra",
+        "open":"10am-10pm",
         "resimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/meta/tasty_treat_cover_1640143913547.jpeg",
         "minOrder":"TK.100",
         "delfee":36,
@@ -41,6 +42,7 @@
     {   "id":2,
         "resname":"Mithai",
         "location":"Donia",
+        "open":"10am-10pm",
         "resimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/mithai/meta/mithai_cover_1637814953936.jpeg",
         "minOrder":"TK.100",
         "delfee":36,
@@ -77,5 +79,6 @@
             }
         ]
     }
+    
     
 ]
