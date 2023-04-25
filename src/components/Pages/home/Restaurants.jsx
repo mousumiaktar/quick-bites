@@ -1,13 +1,13 @@
 import { AiFillStar, } from "react-icons/ai";
 import { useGetRestaurantsQuery } from '../../../features/api/ApiSlice';
 import Loading from '../../shared/Loading';
-// import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 
 
 
 const Restaurants = () => {
-    // const navigate = useNavigate();
+    const navigate = useNavigate();
 
     const { data, isLoading, } = useGetRestaurantsQuery();
     if (isLoading) {
@@ -26,7 +26,7 @@ const Restaurants = () => {
                     <>
                         <div
                             className="card shadow-xl"
-                            
+                            onClick={() => navigate(`/restaurantfood/${data._id}`)}
                         >
                             <img src={data.resimg} alt="" />
                             <div className="mt-2 p-2">
