@@ -111,7 +111,7 @@ const AddReview = () => {
 
 				<input
 					type='submit'
-					className='btn btn-primary  px-2 py-1 w-full rounded-lg font-bold bg-[#FFBA5A] hover:bg-orange-400'
+					className='btn btn-primary  px-2 py-1 w-full rounded-lg font-bold bg-[#FFBA5A] hover:bg-orange-400 duration-200 cursor-pointer'
 					value='Add Review'
 					disabled={!rating}
 				/>
