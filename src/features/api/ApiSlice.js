@@ -25,7 +25,7 @@ export const apiSlice = createApi({
     // post review on database
 		createReview: builder.mutation({
 			query: data => ({
-				url: "/review",
+				url: "/reviews",
 				method: "POST",
 				body: data,
 			}),
@@ -40,6 +40,7 @@ export const apiSlice = createApi({
 
 export const {
  useGetRestaurantsQuery,
- useGetRestaurantByIdQuery
+ useGetRestaurantByIdQuery,
+ useCreateReviewMutation,
  
 } = apiSlice;
