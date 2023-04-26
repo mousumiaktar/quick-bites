@@ -3,14 +3,14 @@ import { useGetRestaurantByIdQuery } from '../../../features/api/ApiSlice';
 import Loading from '../../shared/Loading';
 import { AiOutlineHeart, AiOutlinePlusSquare, AiOutlineMinusSquare } from "react-icons/ai";
 import { BsPlusCircle } from "react-icons/bs";
-import {addToCart} from "../../../features/cart/cartSlice";
-import { useDispatch } from "react-redux";
+
+
 
 
 
 const RestaurantsFood = () => {
     const { id } = useParams();
-    const dispatch = useDispatch();
+    
     const { data, isLoading, isSuccess } = useGetRestaurantByIdQuery(id, {
         pollingInterval: 500,
     });
@@ -67,7 +67,7 @@ const RestaurantsFood = () => {
                                             <div className="flex items-center gap-4">
                                                 <h1 className="font-bold clas">$ {food.price}</h1>
                                                 <BsPlusCircle size={20}
-                                                onClick={() => dispatch(addToCart(data))}
+                                                
                                                 />
                                             </div>
                                         </div>
