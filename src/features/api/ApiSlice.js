@@ -21,6 +21,20 @@ export const apiSlice = createApi({
       }),
       providesTags: ["restaurant"],
     }),
+
+    // post review on database
+		createReview: builder.mutation({
+			query: data => ({
+				url: "/review",
+				method: "POST",
+				body: data,
+			}),
+			invalidatesTags: ["reviews"],
+		}),
+
+
+
+
   }),
 });
 
