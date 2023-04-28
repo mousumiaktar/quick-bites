@@ -39,6 +39,14 @@ export const apiSlice = createApi({
 			invalidatesTags: ["reviews"],
 		}),
 
+    deleteFood: builder.mutation({
+			query: id => ({
+				url: `/allfood/${id}`,
+				method: "DELETE",
+			}),
+			invalidatesTags: ["foods", "food"],
+		}),
+
 
 
 
@@ -49,6 +57,7 @@ export const {
  useGetRestaurantsQuery,
  useGetRestaurantByIdQuery,
  useCreateReviewMutation,
- useGetAllFoodQuery
+ useGetAllFoodQuery,
+ useDeleteFoodMutation
  
 } = apiSlice;

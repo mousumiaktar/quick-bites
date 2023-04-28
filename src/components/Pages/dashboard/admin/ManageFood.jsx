@@ -1,12 +1,15 @@
-import { useGetAllFoodQuery } from "../../../../features/api/ApiSlice";
+import { useDeleteFoodMutation, useGetAllFoodQuery } from "../../../../features/api/ApiSlice";
 import Loading from "../../../shared/Loading";
+import Swal from "sweetalert2";
 
 const ManageFood = () => {
     const { data, isLoading, } = useGetAllFoodQuery();
-    console.log(data);
+    // console.log(data);
     if (isLoading) {
         <Loading />
     }
+
+    
 
 
     return (
@@ -29,8 +32,14 @@ const ManageFood = () => {
                                 <img className='h-12' src={food.fimg} alt='' />
                             </td>
                             <td className="border px-4 py-2">{food.fname}</td>
-                            <td className="border px-4 py-2">{food.price}</td>
+                            <td className="border px-4 py-2">{food.price} TK.</td>
                             <td className="border px-4 py-2">{food.ftype}</td>
+                            <td className="border px-4 py-2"><button
+                                
+                                className='bg-red-500 px-2 rounded text-white'
+                            >
+                                DELETE
+                            </button></td>
                         </tr>)
                     };
 
