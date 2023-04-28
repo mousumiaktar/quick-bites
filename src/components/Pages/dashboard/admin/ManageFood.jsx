@@ -9,7 +9,24 @@ const ManageFood = () => {
         <Loading />
     }
 
-    
+    const [deleteFood] = useDeleteFoodMutation();
+
+    const handleDeletefood = id => {
+        Swal.fire({
+            title: "Are you sure?",
+            text: "You Delete This Food",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#d33",
+            cancelButtonColor: "#3085d6",
+            confirmButtonText: "Yes, delete it!",
+        }).then(result => {
+            if (result.isConfirmed) {
+                deleteFood(id);
+                Swal.fire("Deleted!", "Food has been deleted.", "success");
+            }
+        });
+    };
 
 
     return (
@@ -35,7 +52,7 @@ const ManageFood = () => {
                             <td className="border px-4 py-2">{food.price} TK.</td>
                             <td className="border px-4 py-2">{food.ftype}</td>
                             <td className="border px-4 py-2"><button
-                                
+                                onClick={() => handleDeletefood(food._id)}
                                 className='bg-red-500 px-2 rounded text-white'
                             >
                                 DELETE

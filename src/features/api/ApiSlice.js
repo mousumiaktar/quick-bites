@@ -44,7 +44,7 @@ export const apiSlice = createApi({
 				url: `/allfood/${id}`,
 				method: "DELETE",
 			}),
-			invalidatesTags: ["foods", "food"],
+			invalidatesTags: ["allfood", "food"],
 		}),
 
 
