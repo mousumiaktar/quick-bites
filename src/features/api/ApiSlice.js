@@ -22,6 +22,13 @@ export const apiSlice = createApi({
       providesTags: ["restaurant"],
     }),
 
+    getAllFood: builder.query({
+      query: () => ({
+        url: "/allfood",
+      }),
+      providesTags: ["allfood"],
+    }),
+
     // post review on database
 		createReview: builder.mutation({
 			query: data => ({
@@ -42,5 +49,6 @@ export const {
  useGetRestaurantsQuery,
  useGetRestaurantByIdQuery,
  useCreateReviewMutation,
+ useGetAllFoodQuery
  
 } = apiSlice;
