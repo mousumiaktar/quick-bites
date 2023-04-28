@@ -21,6 +21,21 @@ const Dashboard = () => {
                                 Orders
                             </h1>
                         </Link>
+                        <Link to="addrestaurant">
+                            <h1 className="font-bold  p-2 px-6">
+                                Add Restaurants
+                            </h1>
+                        </Link>
+                        <Link to="managefood">
+                            <h1 className="font-bold  p-2 px-6">
+                                Manage Food
+                            </h1>
+                        </Link>
+                        <Link to="makeadmin">
+                            <h1 className="font-bold  p-2 px-6">
+                                Make Admin
+                            </h1>
+                        </Link>
                     </div>
                 </div>
                 <div className="col-start-4 col-end-12">

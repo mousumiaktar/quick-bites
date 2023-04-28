@@ -1,0 +1,26 @@
+[
+    {
+        "fname":"Cold Chicken Sandwich",
+        "ftype":"Sandwich",
+        "price":110,
+        "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_cold_chicken_sandwich_150gm_thumbnail_1650180282455.jpeg"
+    },
+    {
+        "fname":"Vanilla Pastry 50gm",
+        "ftype":"Pastry",
+        "price":85,
+        "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_cold_chicken_sandwich_150gm_thumbnail_1650180282455.jpeg" 
+    },
+    {
+        "fname":"Mexican Mini Burger",
+        "ftype":"Sandwich",
+        "price":80,
+        "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_mexican_mini_burger_thumbnail_1650180455446.jpeg"
+    },
+    {
+        "fname":"Sausage Delight Pizza",
+        "ftype":"Sancks",
+        "price":85,
+        "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_sausage_delight_pizza_thumbnail_1650180369537.jpeg"
+    }
+]
