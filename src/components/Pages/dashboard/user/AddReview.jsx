@@ -70,7 +70,7 @@ const AddReview = () => {
 	};
 
 	return (
-		<div className='w-full p-10 lg:w-1/2 mx-auto'>
+		<div className='w-full p-10 lg:w-1/2 mx-auto h-screen'>
 			
 			<h1 className='text-2xl text-center text-primary mb-2'>
 				Write Your Opinion About <span className="font-bold text-red-500">Quick-Bites</span>
