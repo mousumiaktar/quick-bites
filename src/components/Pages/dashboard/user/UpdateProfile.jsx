@@ -5,8 +5,8 @@ import { useForm } from 'react-hook-form';
 const UpdateProfile = () => {
     const { register, handleSubmit, } = useForm();
     return (
-        <div className='card shadow-2xl bg-base-100 w-[50%] mx-auto'>
-            
+        <div className='card shadow-2xl bg-base-100 w-[50%] mx-auto mt-8 py-4'>
+
             <form onSubmit={handleSubmit()} className='card-body'>
                 <div className='form-control'>
                     <div className=''>
@@ -31,7 +31,7 @@ const UpdateProfile = () => {
                                     {...register("name", { required: true })}
                                     type='name'
                                     placeholder='Enter Name'
-                                    className='input input-bordered input-primary w-full max-w-xs'
+                                    className='input input-bordered border border-black outline-none py-2 px-1 rounded-md w-full max-w-xs'
                                 />
                             </div>
                             <div className='mb-2 '>
@@ -39,7 +39,7 @@ const UpdateProfile = () => {
                                     {...register("email", { required: true })}
                                     type='email'
                                     placeholder='Enter Email'
-                                    className='input input-bordered input-primary w-full max-w-xs'
+                                    className='input input-bordered border border-black outline-none py-2 px-1 rounded-md w-full max-w-xs'
                                 />
                             </div>
 
@@ -48,11 +48,11 @@ const UpdateProfile = () => {
                                     {...register("price", { required: true })}
                                     type='number'
                                     placeholder='Enter Phone Number'
-                                    className='input input-bordered input-primary w-full max-w-xs'
+                                    className='input input-bordered border border-black outline-none py-2 px-1 rounded-md w-full max-w-xs'
                                 />
                             </div>
                             <div className='form-control mt-6'>
-                                <input className='bg-primary py-2 rounded-lg text-white w-full max-w-xs' type="submit" value="UPDATE" />
+                                <input className='bg-red-500 py-2 rounded-lg text-white w-full max-w-xs' type="submit" value="UPDATE" />
                                 {/* <button className='btn btn-primary'>UPLOAD</button> */}
                             </div>
                         </div>

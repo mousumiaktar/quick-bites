@@ -14,6 +14,7 @@ import AddRestaurant from "./components/Pages/dashboard/admin/AddRestaurant"
 import MakeAdmin from "./components/Pages/dashboard/admin/MakeAdmin"
 import ManageOrder from "./components/Pages/dashboard/admin/ManageOrder"
 import ManageFood from "./components/Pages/dashboard/admin/ManageFood"
+import UpdateProfile from "./components/Pages/dashboard/user/UpdateProfile"
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
           <Route path="makeadmin" element={<MakeAdmin />}></Route>
           <Route path="manageorder" element={<ManageOrder />}></Route>
           <Route path="managefood" element={<ManageFood />}></Route>
+          <Route path="updateprofile" element={<UpdateProfile />}></Route>
         </Route>
       </Routes>
       <Footer />
