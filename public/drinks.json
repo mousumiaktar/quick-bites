@@ -1,0 +1,50 @@
+[
+    {
+        "fname":"Ice-Milk",
+        "ftype":"drink",
+        "price":120,
+        "fimg":"https://en.wikipedia.org/wiki/List_of_drinks#/media/File:Ice_Milk_and_Lemon_Teas_-_Chilli_Cafe.jpg"
+    },
+    {
+        "fname":"Ice-Negroni",
+        "ftype":"drink",
+        "price":120,
+        "fimg":"https://www.eatthis.com/wp-content/uploads/sites/4/2019/03/negroni-cocktial-glass.jpg"
+    },
+    {
+        "fname":"Ice-Coffee",
+        "ftype":"Coffee",
+        "price":100,
+        "fimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-4JxS5Ka7TaXm13aD1qlSL-HVeBcsVuvd_k31-udXQ68ocV2QzJheznvwXcY5omR8G8c&usqp=CAU"
+    },
+    {
+        "fname":"Starbucks Iced Coffee",
+        "ftype":"Coffee",
+        "price":100,
+        "fimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0u5lxHfr9uiGA1iP2iY2eueOfi1rmXVU5xg&usqp=CAU"
+    },
+    {
+        "fname":"Traditional German Drink",
+        "ftype":"Drink",
+        "price":100,
+        "fimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRktHa3vt445X2akQK_UC-ORKwh7o6gqGLZMQ&usqp=CAU"
+    },
+    {
+        "fname":"Mixing Drink Alcohol free",
+        "ftype":"Drink",
+        "price":100,
+        "fimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaR6HAKdnTLj0TJhXQpN3ZYSpllpzg2HEEtA3YfKHN-QpLooQmliPyepto7vZ9fq_o-Og&usqp=CAU"
+    },
+    {
+        "fname":"Homemade Energy Drink",
+        "ftype":"Drink",
+        "price":100,
+        "fimg":"https://insanelygoodrecipes.com/wp-content/uploads/2022/09/Cold-Refreshing-Energy-Drinks-with-Lime-and-Lemon.jpg"
+    },
+    {
+        "fname":"Cocktails Drink",
+        "ftype":"Drink",
+        "price":120,
+        "fimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkZLArHVM66SZ82XeGieUAd0RCEPtPZnW84quPkr1r2-6hVfRAZk26Qzp6uNw_DKKKLgI&usqp=CAU"
+    }
+]
