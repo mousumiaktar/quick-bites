@@ -1,54 +1,58 @@
-import cook from "../../../assets/images/cook.jpg"
-import { useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-firebase-hooks/auth';
+import {
+    useCreateUserWithEmailAndPassword,
+    useUpdateProfile,
+} from "react-firebase-hooks/auth";
 import auth from "../../../firebase.init";
 import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router-dom";
 import Loading from "../../shared/Loading";
+import useToken from "../../../hooks/useToken";
+
 
 const Register = () => {
+    const {
+        register,
+        formState: { errors },
+        handleSubmit,
+    } = useForm();
 
-    const { register, formState: { errors }, handleSubmit } = useForm();
-
-    const [
-        createUserWithEmailAndPassword,
-        user,
-        loading,
-        error,
-    ] = useCreateUserWithEmailAndPassword(auth);
+    const [createUserWithEmailAndPassword, user, loading, error] =
+        useCreateUserWithEmailAndPassword(auth);
     const [updateProfile, updating, updateError] = useUpdateProfile(auth);
+    const [token] = useToken(user);
     const navigate = useNavigate();
 
-    if (user) {
-        console.log(user);
+    if (token) {
+        navigate("/home");
     }
-
     let signInError;
 
     if (loading || updating) {
-        return <Loading />
+        return <Loading />;
     }
 
     if (error || updateError) {
-        signInError = <p className='text-red-500'><small>{error?.message || updateError?.message}</small></p>
+        signInError = (
+            <p className="text-red-500">
+                <small>{error?.message || updateError?.message}</small>
+            </p>
+        );
     }
 
+    const onSubmit = async (data) => {
 
-
-    const onSubmit = async data => {
-        console.log(data);
         await createUserWithEmailAndPassword(data.email, data.password);
         await updateProfile({ displayName: data.name });
-        console.log('update done');
-        navigate('/home');
-    }
 
+
+    };
 
     return (
         <div className="flex justify-center items-center h-screen">
-            <div className="w-6/12 shadow-xl">
-                <div className="grid grid-cols-2">
-                    <div>
-                        <img className="bg-red-300" src={cook} alt="" />
+            <div className="lg:w-6/12 shadow-xl p-6">
+                <div className="grid lg:grid-cols-2 grid-cols-1">
+                    <div className="bg-red-500">
+                        <img className="" src="" alt="alt" />
                     </div>
                     <div className="px-5">
                         <h1 className="font-bold text-2xl">Signup</h1>
@@ -63,11 +67,17 @@ const Register = () => {
                                         {...register("name", {
                                             required: {
                                                 value: true,
-                                                message: 'Name is Required'
+                                                message: "Name is Required",
                                             },
                                         })}
                                     />
-                                    <p>{errors.email?.type === 'required' && <span className="label-text-alt text-red-500">{errors.name.message}</span>}</p>
+                                    <p>
+                                        {errors.email?.type === "required" && (
+                                            <span className="label-text-alt text-red-500">
+                                                {errors.name.message}
+                                            </span>
+                                        )}
+                                    </p>
                                 </div>
 
                                 <div>
@@ -79,21 +89,32 @@ const Register = () => {
                                         {...register("email", {
                                             required: {
                                                 value: true,
-                                                message: 'Email is Required'
+                                                message: "Email is Required",
                                             },
                                             pattern: {
                                                 value: /[a-z0-9]+@[a-z]+\.[a-z]{2,3}/,
-                                                message: 'Provide a valid Email'
-                                            }
-                                        })} />
+                                                message: "Provide a valid Email",
+                                            },
+                                        })}
+                                    />
                                     <p>
-                                        {errors.email?.type === 'required' && <span className="label-text-alt text-red-500">{errors.email.message}</span>}
-                                        {errors.email?.type === 'pattern' && <span className="label-text-alt text-red-500">{errors.email.message}</span>}
+                                        {errors.email?.type === "required" && (
+                                            <span className="label-text-alt text-red-500">
+                                                {errors.email.message}
+                                            </span>
+                                        )}
+                                        {errors.email?.type === "pattern" && (
+                                            <span className="label-text-alt text-red-500">
+                                                {errors.email.message}
+                                            </span>
+                                        )}
                                     </p>
                                 </div>
 
                                 <div>
-                                    <label className="mt-5" htmlFor="email">Password</label>
+                                    <label className="mt-5" htmlFor="email">
+                                        Password
+                                    </label>
                                     <input
                                         type="password"
                                         placeholder="Your Password"
@@ -101,16 +122,25 @@ const Register = () => {
                                         {...register("password", {
                                             required: {
                                                 value: true,
-                                                message: 'password is Required'
+                                                message: "password is Required",
                                             },
                                             minLength: {
                                                 value: 6,
-                                                message: 'Must be 6 characters or longer'
-                                            }
-                                        })} />
+                                                message: "Must be 6 characters or longer",
+                                            },
+                                        })}
+                                    />
                                     <p>
-                                        {errors.password?.type === 'required' && <span className="label-text-alt text-red-500">{errors.password.message}</span>}
-                                        {errors.password?.type === 'minLength' && <span className="label-text-alt text-red-500">{errors.password.message}</span>}
+                                        {errors.password?.type === "required" && (
+                                            <span className="label-text-alt text-red-500">
+                                                {errors.password.message}
+                                            </span>
+                                        )}
+                                        {errors.password?.type === "minLength" && (
+                                            <span className="label-text-alt text-red-500">
+                                                {errors.password.message}
+                                            </span>
+                                        )}
                                     </p>
                                 </div>
 
@@ -118,11 +148,17 @@ const Register = () => {
 
                                 <input
                                     className="border-2 border-gray-700 w-full rounded-sm p-2 mt-4"
-                                    type="submit" value="Signup" />
+                                    type="submit"
+                                    value="Signup"
+                                />
                             </div>
                         </form>
-                        <p className="mt-4">Already have an account? <Link className='text-red-500' to="/login">Please login</Link></p>
-
+                        <p className="mt-4">
+                            Already have an account?{" "}
+                            <Link className="text-red-500" to="/login">
+                                Please login
+                            </Link>
+                        </p>
                     </div>
                 </div>
             </div>

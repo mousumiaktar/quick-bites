@@ -62,7 +62,7 @@ const Navbar = () => {
                                             </li>
                                         </Link>
 
-                                        <Link to="blogs">
+                                        <Link to="blog">
                                             <li>
                                                 <div className="flex items-center">
                                                     <span className="relative group-hover:text-cyan-800 text-2xl "></span>

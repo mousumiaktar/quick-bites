@@ -16,6 +16,8 @@ import ManageOrder from "./components/Pages/dashboard/admin/ManageOrder"
 import ManageFood from "./components/Pages/dashboard/admin/ManageFood"
 import UpdateProfile from "./components/Pages/dashboard/user/UpdateProfile"
 import BuyNow from "./components/Pages/orderNow/BuyNow"
+import RequireAuth from "./components/Pages/Authentication/RequireAuth"
+import Blog from "./components/Pages/blog/Blog"
 
 
 function App() {
@@ -29,6 +31,16 @@ function App() {
         <Route path='/home' element={<Home />}></Route>
         <Route path="/login" element={<LogIn />}></Route>
         <Route path="/register" element={<Register />}></Route>
+
+        <Route
+          path="/blog"
+          element={
+            <RequireAuth>
+              <Blog></Blog>
+            </RequireAuth>
+          }
+        ></Route>
+
         <Route path="/restaurantfood/:id" element={<RestaurantsFood />}></Route>
         <Route path="/cart" element={<BuyNow />}></Route>
 
