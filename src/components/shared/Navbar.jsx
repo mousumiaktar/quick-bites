@@ -4,11 +4,14 @@ import { RxAvatar } from 'react-icons/rx';
 import auth from '../../firebase.init';
 import { Link } from 'react-router-dom';
 import { signOut } from 'firebase/auth';
+import { useSelector } from 'react-redux';
 
 
 
 const Navbar = () => {
     const [user] = useAuthState(auth);
+    const list = useSelector((state) => state.cart)
+    // console.log(list);
 
 
     const logout = () => {
@@ -76,13 +79,16 @@ const Navbar = () => {
 
                                         {user ? (
                                             <>
-                                                <li className="">
-                                                    <div className="flex items-center ">
-                                                        <span className="relative mt-1 group-hover:text-cyan-800 text-red-500 text-2xl">
-                                                            <HiOutlineShoppingBag />
-                                                        </span>
-                                                    </div>
-                                                </li>
+                                                <Link to="cart">
+                                                    <li className="">
+                                                        <div className="flex items-center ">
+                                                            <span className="relative mt-1 group-hover:text-cyan-800 text-red-500 text-2xl">
+                                                                <HiOutlineShoppingBag />
+                                                            </span>
+                                                            <span>{list?.length}</span>
+                                                        </div>
+                                                    </li>
+                                                </Link>
                                                 <li>
                                                     <div className="flex items-center">
                                                         <span className="relative group-hover:text-cyan-800 text-2xl ">

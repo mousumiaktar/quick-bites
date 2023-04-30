@@ -2,10 +2,10 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { FaStar } from "react-icons/fa";
 import { toast } from "react-hot-toast";
-import { useCreateReviewMutation } from "../../../../features/api/ApiSlice";
 import { useAuthState } from "react-firebase-hooks/auth";
 import Loading from "../../../shared/Loading";
 import auth from "../../../../firebase.init";
+import { useAddReviewMutation } from "../../../../features/api/ApiSlice";
 
 
 
@@ -16,7 +16,7 @@ const colors = {
 
 const AddReview = () => {
 	const [addReveiw, { isLoading, isError, isSuccess }] =
-		useCreateReviewMutation();
+		useAddReviewMutation();
 	const { register, handleSubmit, reset } = useForm();
 	const [loading,] = useState(false);
 	const [rating, setRating] = useState(0);
