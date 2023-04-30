@@ -11,13 +11,13 @@ import Profile from "./components/Pages/dashboard/user/Profile"
 import MyOrder from "./components/Pages/dashboard/user/MyOrder"
 import AddReview from "./components/Pages/dashboard/user/AddReview"
 import AddFood from "./components/Pages/dashboard/admin/AddFood"
-import MakeAdmin from "./components/Pages/dashboard/admin/MakeAdmin"
 import ManageOrder from "./components/Pages/dashboard/admin/ManageOrder"
 import ManageFood from "./components/Pages/dashboard/admin/ManageFood"
 import UpdateProfile from "./components/Pages/dashboard/user/UpdateProfile"
 import BuyNow from "./components/Pages/orderNow/BuyNow"
 import RequireAuth from "./components/Pages/Authentication/RequireAuth"
 import Blog from "./components/Pages/blog/Blog"
+import AllUser from "./components/Pages/dashboard/admin/AllUser"
 
 
 function App() {
@@ -41,9 +41,17 @@ function App() {
           }
         ></Route>
 
-        <Route path="/restaurantfood/:id" element={<RestaurantsFood />}></Route>
-        <Route path="/cart" element={<BuyNow />}></Route>
+        <Route path="/restaurantfood/:id" element={
+          <RequireAuth>
+            <RestaurantsFood />
+          </RequireAuth>
+        }></Route>
 
+        <Route path="/cart" element={
+          <RequireAuth>
+            <BuyNow />
+          </RequireAuth>
+        }></Route>
         <Route path="/dashboard" element={<Dashboard />}></Route>
         <Route path="/dashboard" element={<Dashboard />}>
           <Route index element={<Welcome />}></Route>
@@ -52,7 +60,7 @@ function App() {
           <Route path="addreview" element={<AddReview />}></Route>
           <Route path="addreview" element={<AddReview />}></Route>
           <Route path="addfood" element={<AddFood />}></Route>
-          <Route path="makeadmin" element={<MakeAdmin />}></Route>
+          <Route path="alluser" element={<AllUser />}></Route>
           <Route path="manageorder" element={<ManageOrder />}></Route>
           <Route path="managefood" element={<ManageFood />}></Route>
           <Route path="updateprofile" element={<UpdateProfile />}></Route>
