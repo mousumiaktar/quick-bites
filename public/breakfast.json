@@ -1,0 +1,38 @@
+[
+    {
+        "fname":"Chicken Popeyes",
+        "ftype":"Chicken",
+        "price":110,
+        "fimg":"https://validthemes.live//themeforest/recafe/assets/img/menu/5.jpg"
+    },
+    {
+        "fname":"Chicken Sandwich",
+        "ftype":"Sandwich",
+        "price":80,
+        "fimg":"https://validthemes.live//themeforest/recafe/assets/img/menu/4.jpg"
+    },
+    {
+        "fname":"Salmon Steak",
+        "ftype":"Fish",
+        "price":180,
+        "fimg":"https://validthemes.live//themeforest/recafe/assets/img/menu/6.jpg"
+    },
+    {
+        "fname":"Fries McDonalds",
+        "ftype":"Chocolet",
+        "price":60,
+        "fimg":"https://validthemes.live//themeforest/recafe/assets/img/menu/3.jpg"
+    },
+    {
+        "fname":"Luger Burger",
+        "ftype":"Burger",
+        "price":60,
+        "fimg":"https://validthemes.live//themeforest/recafe/assets/img/menu/2.jpg"
+    },
+    {
+        "fname":"Crispy Crust Pizzeria",
+        "ftype":"Pizza",
+        "price":160,
+        "fimg":"https://validthemes.live//themeforest/recafe/assets/img/menu/1.jpg"
+    }
+]
