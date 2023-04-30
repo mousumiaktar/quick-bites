@@ -1,0 +1,50 @@
+[
+    {
+        "fname":"Chicken Popeyes",
+        "ftype":"Chicken",
+        "price":110,
+        "fimg":"https://expert-themes.com/html/shangrila/images/gallery/1.jpg"
+    },
+    {
+        "fname":"Chocolet Cake",
+        "ftype":"Cake",
+        "price":40,
+        "fimg":"https://expert-themes.com/html/shangrila/images/gallery/2.jpg"
+    },
+    {
+        "fname":"Delicious Cake",
+        "ftype":"Cake",
+        "price":40,
+        "fimg":"https://expert-themes.com/html/shangrila/images/gallery/3.jpg"
+    },
+    {
+        "fname":"Fried Rice",
+        "ftype":"rice",
+        "price":180,
+        "fimg":"https://expert-themes.com/html/shangrila/images/gallery/4.jpg"
+    },
+    {
+        "fname":"Chicken Burger",
+        "ftype":"Burger",
+        "price":180,
+        "fimg":"https://expert-themes.com/html/shangrila/images/gallery/5.jpg"
+    },
+    {
+        "fname":"Chicken Roll",
+        "ftype":"Chicken",
+        "price":150,
+        "fimg":"https://expert-themes.com/html/shangrila/images/gallery/6.jpg"
+    },
+    {
+        "fname":"Salmon Fry",
+        "ftype":"Fish",
+        "price":140,
+        "fimg":"https://expert-themes.com/html/shangrila/images/gallery/7.jpg"
+    },
+    {
+        "fname":"Egg Poch",
+        "ftype":"Egg",
+        "price":20,
+        "fimg":"https://expert-themes.com/html/shangrila/images/gallery/8.jpg"
+    }
+]
