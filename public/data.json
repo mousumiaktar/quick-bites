@@ -1,275 +1,533 @@
 [
     {
-        "resname":"Tasty Treat",
-        "location":"Sonir Akhra",
-        "resimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/meta/tasty_treat_cover_1640143913547.jpeg",
-        "minOrder":"100",
-        "rank":"4.9",
-        "delfee":36,
-        "food":[
+        "resname": "Tasty Treat",
+        "location": "Sonir Akhra",
+        "resimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/meta/tasty_treat_cover_1640143913547.jpeg",
+        "minOrder": "100",
+        "rank": "4.9",
+        "delfee": 36,
+        "food": [
             {
-                "fname":"Cold Chicken Sandwich",
-                "ftype":"Sandwich",
-                "price":110,
-                "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_cold_chicken_sandwich_150gm_thumbnail_1650180282455.jpeg"
+                "_id": 1,
+                "fname": "Cold Chicken Sandwich",
+                "ftype": "Sandwich",
+                "price": 110,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_cold_chicken_sandwich_150gm_thumbnail_1650180282455.jpeg"
             },
             {
-                "fname":"Vanilla Pastry 50gm",
-                "ftype":"Pastry",
-                "price":85,
-                "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_cold_chicken_sandwich_150gm_thumbnail_1650180282455.jpeg" 
+                "_id": 2,
+                "fname": "Mexican Mini Burger",
+                "ftype": "Sandwich",
+                "price": 80,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_mexican_mini_burger_thumbnail_1650180455446.jpeg"
             },
             {
-                "fname":"Mexican Mini Burger",
-                "ftype":"Sandwich",
-                "price":80,
-                "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_mexican_mini_burger_thumbnail_1650180455446.jpeg"
+                "_id": 3,
+                "fname": "Sausage Delight Pizza",
+                "ftype": "Sancks",
+                "price": 85,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_sausage_delight_pizza_thumbnail_1650180369537.jpeg"
             },
             {
-                "fname":"Sausage Delight Pizza",
-                "ftype":"Sancks",
-                "price":85,
-                "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_sausage_delight_pizza_thumbnail_1650180369537.jpeg"
+                "_id": 4,
+                "fname": "Karaage Chicken",
+                "ftype": "Chicken",
+                "price": 150,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_karaage_chicken_thumbnail_1654667253959.jpeg"
+            },
+            {
+                "_id": 5,
+                "fname": "Chicken Lollipop",
+                "ftype": "Chicken",
+                "price": 70,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_chicken_lollipop_thumbnail_1654667140683.jpeg"
+            },
+            {
+                "_id": 6,
+                "fname": "Chicken Hot Sausage",
+                "ftype": "Chicken",
+                "price": 30,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_chicken_hot_sausage_thumbnail_1654667365089.jpeg"
+            },
+            {
+                "_id": 7,
+                "fname": "Chicken Hot Wings",
+                "ftype": "Chicken",
+                "price": 145,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_hot_wings_thumbnail_1654667387590.jpeg"
+            },
+            {
+                "_id": 8,
+                "fname": "Fried Rice",
+                "ftype": "Rice",
+                "price": 160,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_fried_rice_thumbnail_1654667314357.jpeg"
             }
         ]
     },
     {
-        "resname":"Coffee World ",
-        "location":"Dhanmondi",
-        "resimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/coffee_world/meta/coffee_world_cover_1643777841066.png",
-        "minOrder":"100",
-        "rank":"2.9",
-        "delfee":36,
-        "food":[
+        "resname": "Coffee World ",
+        "location": "Dhanmondi",
+        "resimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/coffee_world/meta/coffee_world_cover_1643777841066.png",
+        "minOrder": "100",
+        "rank": "2.9",
+        "delfee": 36,
+        "food": [
             {
-                "fname":"Cold Chicken Sandwich",
-                "ftype":"Sandwich",
-                "price":110,
-                "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_cold_chicken_sandwich_150gm_thumbnail_1650180282455.jpeg"
+                "_id": 9,
+                "fname": "Regular Chicken Chowmein",
+                "ftype": "Noodles",
+                "price": 185,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/pizza_organica/items/pizza_organica_regular_chicken_chowmein_thumbnail_1646196013979.jpeg"
             },
             {
-                "fname":"Vanilla Pastry 50gm",
-                "ftype":"Pastry",
-                "price":85,
-                "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_cold_chicken_sandwich_150gm_thumbnail_1650180282455.jpeg" 
+                "_id": 10,
+                "fname": "Regular Beef Chowmein",
+                "ftype": "Noodles",
+                "price": 220,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/pizza_organica/items/pizza_organica_regular_beef_chowmein_thumbnail_1646196049800.jpeg"
             },
             {
-                "fname":"Mexican Mini Burger",
-                "ftype":"Sandwich",
-                "price":80,
-                "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_mexican_mini_burger_thumbnail_1650180455446.jpeg"
+                "_id": 11,
+                "fname": "Sausage Delight Pizza",
+                "ftype": "Sancks",
+                "price": 85,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_sausage_delight_pizza_thumbnail_1650180369537.jpeg"
             },
             {
-                "fname":"Sausage Delight Pizza",
-                "ftype":"Sancks",
-                "price":85,
-                "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_sausage_delight_pizza_thumbnail_1650180369537.jpeg"
+                "_id": 12,
+                "fname": "Karaage Chicken",
+                "ftype": "Chicken",
+                "price": 150,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_karaage_chicken_thumbnail_1654667253959.jpeg"
+            },
+            {
+                "_id": 13,
+                "fname": "Chicken Lollipop",
+                "ftype": "Chicken",
+                "price": 70,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_chicken_lollipop_thumbnail_1654667140683.jpeg"
+            },
+            {
+                "_id": 14,
+                "fname": "Chicken Hot Sausage",
+                "ftype": "Chicken",
+                "price": 30,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_chicken_hot_sausage_thumbnail_1654667365089.jpeg"
+            },
+            {
+                "_id": 15,
+                "fname": "Chicken Hot Wings",
+                "ftype": "Chicken",
+                "price": 145,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_hot_wings_thumbnail_1654667387590.jpeg"
+            },
+            {
+                "_id": 16,
+                "fname": "Fried Rice",
+                "ftype": "Rice",
+                "price": 160,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_fried_rice_thumbnail_1654667314357.jpeg"
             }
         ]
     },
     {
-        "resname":"Pizza Masters ",
-        "location":" Shekertek",
-        "resimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/pizza_masters/meta/pizza_masters_cover_1639049105176.jpeg",
-        "minOrder":"100",
-        "rank":"2.9",
-        "delfee":36,
-        "food":[
+        "resname": "Pizza Masters ",
+        "location": " Shekertek",
+        "resimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/pizza_masters/meta/pizza_masters_cover_1639049105176.jpeg",
+        "minOrder": "100",
+        "rank": "2.9",
+        "delfee": 36,
+        "food": [
             {
-                "fname":"Cold Chicken Sandwich",
-                "ftype":"Sandwich",
-                "price":110,
-                "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_cold_chicken_sandwich_150gm_thumbnail_1650180282455.jpeg"
+                "_id": 17,
+                "fname": "Fried Rice",
+                "ftype": "Rice",
+                "price": 160,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_fried_rice_thumbnail_1654667314357.jpeg"
             },
             {
-                "fname":"Vanilla Pastry 50gm",
-                "ftype":"Pastry",
-                "price":85,
-                "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_cold_chicken_sandwich_150gm_thumbnail_1650180282455.jpeg" 
+                "_id": 18,
+                "fname": "Chicken Hot Wings",
+                "ftype": "Chicken",
+                "price": 145,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_hot_wings_thumbnail_1654667387590.jpeg"
             },
             {
-                "fname":"Mexican Mini Burger",
-                "ftype":"Sandwich",
-                "price":80,
-                "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_mexican_mini_burger_thumbnail_1650180455446.jpeg"
+                "_id": 19,
+                "fname": "Chicken Hot Sausage",
+                "ftype": "Chicken",
+                "price": 30,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_chicken_hot_sausage_thumbnail_1654667365089.jpeg"
             },
             {
-                "fname":"Sausage Delight Pizza",
-                "ftype":"Sancks",
-                "price":85,
-                "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_sausage_delight_pizza_thumbnail_1650180369537.jpeg"
+                "_id": 20,
+                "fname": "Chicken Lollipop",
+                "ftype": "Chicken",
+                "price": 70,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_chicken_lollipop_thumbnail_1654667140683.jpeg"
+            },
+            {
+                "_id": 21,
+                "fname": "Karaage Chicken",
+                "ftype": "Chicken",
+                "price": 150,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_karaage_chicken_thumbnail_1654667253959.jpeg"
+            },
+            {
+                "_id": 22,
+                "fname": "Sausage Delight Pizza",
+                "ftype": "Sancks",
+                "price": 85,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_sausage_delight_pizza_thumbnail_1650180369537.jpeg"
+            },
+            {
+                "_id": 23,
+                "fname": "Regular Beef Chowmein",
+                "ftype": "Noodles",
+                "price": 220,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/pizza_organica/items/pizza_organica_regular_beef_chowmein_thumbnail_1646196049800.jpeg"
+            },
+            {
+                "_id": 24,
+                "fname": "Regular Chicken Chowmein",
+                "ftype": "Noodles",
+                "price": 185,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/pizza_organica/items/pizza_organica_regular_chicken_chowmein_thumbnail_1646196013979.jpeg"
             }
         ]
     },
     {
-        "resname":"Mithai - Mohammadpur  ",
-        "location":"Tajmahal Road",
-        "resimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/mithai/meta/mithai_cover_1637814953936.jpeg",
-        "minOrder":"100",
-        "rank":"0.9",
-        "delfee":36,
-        "food":[
+        "resname": "Mithai - Mohammadpur  ",
+        "location": "Tajmahal Road",
+        "resimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/mithai/meta/mithai_cover_1637814953936.jpeg",
+        "minOrder": "100",
+        "rank": "0.9",
+        "delfee": 36,
+        "food": [
             {
-                "fname":"Cold Chicken Sandwich",
-                "ftype":"Sandwich",
-                "price":110,
-                "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_cold_chicken_sandwich_150gm_thumbnail_1650180282455.jpeg"
+                "_id": 25,
+                "fname": "Cold Chicken Sandwich",
+                "ftype": "Sandwich",
+                "price": 110,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_cold_chicken_sandwich_150gm_thumbnail_1650180282455.jpeg"
             },
             {
-                "fname":"Vanilla Pastry 50gm",
-                "ftype":"Pastry",
-                "price":85,
-                "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_cold_chicken_sandwich_150gm_thumbnail_1650180282455.jpeg" 
+                "_id": 26,
+                "fname": "Mexican Mini Burger",
+                "ftype": "Sandwich",
+                "price": 80,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_mexican_mini_burger_thumbnail_1650180455446.jpeg"
             },
             {
-                "fname":"Mexican Mini Burger",
-                "ftype":"Sandwich",
-                "price":80,
-                "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_mexican_mini_burger_thumbnail_1650180455446.jpeg"
+                "_id": 27,
+                "fname": "Sausage Delight Pizza",
+                "ftype": "Sancks",
+                "price": 85,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_sausage_delight_pizza_thumbnail_1650180369537.jpeg"
             },
             {
-                "fname":"Sausage Delight Pizza",
-                "ftype":"Sancks",
-                "price":85,
-                "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_sausage_delight_pizza_thumbnail_1650180369537.jpeg"
+                "_id": 28,
+                "fname": "Karaage Chicken",
+                "ftype": "Chicken",
+                "price": 150,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_karaage_chicken_thumbnail_1654667253959.jpeg"
+            },
+            {
+                "_id": 29,
+                "fname": "Chicken Lollipop",
+                "ftype": "Chicken",
+                "price": 70,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_chicken_lollipop_thumbnail_1654667140683.jpeg"
+            },
+            {
+                "_id": 30,
+                "fname": "Chicken Hot Sausage",
+                "ftype": "Chicken",
+                "price": 30,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_chicken_hot_sausage_thumbnail_1654667365089.jpeg"
+            },
+            {
+                "_id": 31,
+                "fname": "Chicken Hot Wings",
+                "ftype": "Chicken",
+                "price": 145,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_hot_wings_thumbnail_1654667387590.jpeg"
+            },
+            {
+                "_id": 32,
+                "fname": "Fried Rice",
+                "ftype": "Rice",
+                "price": 160,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_fried_rice_thumbnail_1654667314357.jpeg"
             }
         ]
     },
     {
-        "resname":"Secret Recipe",
-        "location":" Dhanmondi Flagship",
-        "resimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/secret_recipe/meta/secret_recipe_cover_1639913900478.jpeg",
-        "minOrder":"100",
-        "rank":"4.4/5 ",
-        "delfee":36,
-        "food":[
+        "resname": "Secret Recipe",
+        "location": " Dhanmondi Flagship",
+        "resimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/secret_recipe/meta/secret_recipe_cover_1639913900478.jpeg",
+        "minOrder": "100",
+        "rank": "4.4/5 ",
+        "delfee": 36,
+        "food": [
             {
-                "fname":"Cold Chicken Sandwich",
-                "ftype":"Sandwich",
-                "price":110,
-                "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_cold_chicken_sandwich_150gm_thumbnail_1650180282455.jpeg"
+                "_id": 33,
+                "fname": "Regular Chicken Chowmein",
+                "ftype": "Noodles",
+                "price": 185,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/pizza_organica/items/pizza_organica_regular_chicken_chowmein_thumbnail_1646196013979.jpeg"
             },
             {
-                "fname":"Vanilla Pastry 50gm",
-                "ftype":"Pastry",
-                "price":85,
-                "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_cold_chicken_sandwich_150gm_thumbnail_1650180282455.jpeg" 
+                "_id": 34,
+                "fname": "Regular Beef Chowmein",
+                "ftype": "Noodles",
+                "price": 220,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/pizza_organica/items/pizza_organica_regular_beef_chowmein_thumbnail_1646196049800.jpeg"
             },
             {
-                "fname":"Mexican Mini Burger",
-                "ftype":"Sandwich",
-                "price":80,
-                "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_mexican_mini_burger_thumbnail_1650180455446.jpeg"
+                "_id": 35,
+                "fname": "Sausage Delight Pizza",
+                "ftype": "Sancks",
+                "price": 85,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_sausage_delight_pizza_thumbnail_1650180369537.jpeg"
             },
             {
-                "fname":"Sausage Delight Pizza",
-                "ftype":"Sancks",
-                "price":85,
-                "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_sausage_delight_pizza_thumbnail_1650180369537.jpeg"
+                "_id": 36,
+                "fname": "Karaage Chicken",
+                "ftype": "Chicken",
+                "price": 150,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_karaage_chicken_thumbnail_1654667253959.jpeg"
+            },
+            {
+                "_id": 37,
+                "fname": "Chicken Lollipop",
+                "ftype": "Chicken",
+                "price": 70,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_chicken_lollipop_thumbnail_1654667140683.jpeg"
+            },
+            {
+                "_id": 38,
+                "fname": "Chicken Hot Sausage",
+                "ftype": "Chicken",
+                "price": 30,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_chicken_hot_sausage_thumbnail_1654667365089.jpeg"
+            },
+            {
+                "_id": 39,
+                "fname": "Chicken Hot Wings",
+                "ftype": "Chicken",
+                "price": 145,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_hot_wings_thumbnail_1654667387590.jpeg"
+            },
+            {
+                "_id": 40,
+                "fname": "Fried Rice",
+                "ftype": "Rice",
+                "price": 160,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_fried_rice_thumbnail_1654667314357.jpeg"
             }
         ]
     },
     {
-        "resname":"Italian Pizza Bar ",
-        "location":"Mohammadpur",
-        "resimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/italian_pizza_bar/meta/italian_pizza_bar_cover_1611633545834.jpg",
-        "minOrder":"100",
-        "rank":"3.9/5",
-        "delfee":36,
-        "food":[
+        "resname": "Italian Pizza Bar ",
+        "location": "Mohammadpur",
+        "resimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/italian_pizza_bar/meta/italian_pizza_bar_cover_1611633545834.jpg",
+        "minOrder": "100",
+        "rank": "3.9/5",
+        "delfee": 36,
+        "food": [
             {
-                "fname":"Cold Chicken Sandwich",
-                "ftype":"Sandwich",
-                "price":110,
-                "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_cold_chicken_sandwich_150gm_thumbnail_1650180282455.jpeg"
+                "_id": 41,
+                "fname": "Fried Rice",
+                "ftype": "Rice",
+                "price": 160,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_fried_rice_thumbnail_1654667314357.jpeg"
             },
             {
-                "fname":"Vanilla Pastry 50gm",
-                "ftype":"Pastry",
-                "price":85,
-                "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_cold_chicken_sandwich_150gm_thumbnail_1650180282455.jpeg" 
+                "_id": 42,
+                "fname": "Chicken Hot Wings",
+                "ftype": "Chicken",
+                "price": 145,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_hot_wings_thumbnail_1654667387590.jpeg"
             },
             {
-                "fname":"Mexican Mini Burger",
-                "ftype":"Sandwich",
-                "price":80,
-                "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_mexican_mini_burger_thumbnail_1650180455446.jpeg"
+                "_id": 43,
+                "fname": "Chicken Hot Sausage",
+                "ftype": "Chicken",
+                "price": 30,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_chicken_hot_sausage_thumbnail_1654667365089.jpeg"
             },
             {
-                "fname":"Sausage Delight Pizza",
-                "ftype":"Sancks",
-                "price":85,
-                "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_sausage_delight_pizza_thumbnail_1650180369537.jpeg"
+                "_id": 44,
+                "fname": "Chicken Lollipop",
+                "ftype": "Chicken",
+                "price": 70,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_chicken_lollipop_thumbnail_1654667140683.jpeg"
+            },
+            {
+                "_id": 45,
+                "fname": "Karaage Chicken",
+                "ftype": "Chicken",
+                "price": 150,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_karaage_chicken_thumbnail_1654667253959.jpeg"
+            },
+            {
+                "_id": 46,
+                "fname": "Sausage Delight Pizza",
+                "ftype": "Sancks",
+                "price": 85,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_sausage_delight_pizza_thumbnail_1650180369537.jpeg"
+            },
+            {
+                "_id": 47,
+                "fname": "Regular Beef Chowmein",
+                "ftype": "Noodles",
+                "price": 220,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/pizza_organica/items/pizza_organica_regular_beef_chowmein_thumbnail_1646196049800.jpeg"
+            },
+            {
+                "_id": 48,
+                "fname": "Regular Chicken Chowmein",
+                "ftype": "Noodles",
+                "price": 185,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/pizza_organica/items/pizza_organica_regular_chicken_chowmein_thumbnail_1646196013979.jpeg"
             }
         ]
     },
     {
-        "resname":"American Pizza ",
-        "location":" Adabor",
-        "resimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/kudos/meta/kudos_cover_1639914186733.jpeg",
-        "minOrder":"100",
-        "rank":"4/5 ",
-        "delfee":36,
-        "food":[
+        "resname": "American Pizza ",
+        "location": " Adabor",
+        "resimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/kudos/meta/kudos_cover_1639914186733.jpeg",
+        "minOrder": "100",
+        "rank": "4/5 ",
+        "delfee": 36,
+        "food": [
             {
-                "fname":"Cold Chicken Sandwich",
-                "ftype":"Sandwich",
-                "price":110,
-                "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_cold_chicken_sandwich_150gm_thumbnail_1650180282455.jpeg"
+                "_id": 49,
+                "fname": "Sausage Delight Pizza",
+                "ftype": "Sancks",
+                "price": 85,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_sausage_delight_pizza_thumbnail_1650180369537.jpeg"
             },
             {
-                "fname":"Vanilla Pastry 50gm",
-                "ftype":"Pastry",
-                "price":85,
-                "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_cold_chicken_sandwich_150gm_thumbnail_1650180282455.jpeg" 
+                "_id": 50,
+                "fname": "Cold Chicken Sandwich",
+                "ftype": "Sandwich",
+                "price": 110,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_cold_chicken_sandwich_150gm_thumbnail_1650180282455.jpeg"
             },
             {
-                "fname":"Mexican Mini Burger",
-                "ftype":"Sandwich",
-                "price":80,
-                "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_mexican_mini_burger_thumbnail_1650180455446.jpeg"
+                "_id": 51,
+                "fname": "Mexican Mini Burger",
+                "ftype": "Sandwich",
+                "price": 80,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_mexican_mini_burger_thumbnail_1650180455446.jpeg"
             },
             {
-                "fname":"Sausage Delight Pizza",
-                "ftype":"Sancks",
-                "price":85,
-                "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_sausage_delight_pizza_thumbnail_1650180369537.jpeg"
+                "_id": 52,
+                "fname": "Chicken Lollipop",
+                "ftype": "Chicken",
+                "price": 70,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_chicken_lollipop_thumbnail_1654667140683.jpeg"
+            },
+            {
+                "_id": 53,
+                "fname": "Karaage Chicken",
+                "ftype": "Chicken",
+                "price": 150,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_karaage_chicken_thumbnail_1654667253959.jpeg"
+            },
+            
+            {
+                "_id": 54,
+                "fname": "Chicken Hot Sausage",
+                "ftype": "Chicken",
+                "price": 30,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_chicken_hot_sausage_thumbnail_1654667365089.jpeg"
+            },
+            {
+                "_id": 55,
+                "fname": "Fried Rice",
+                "ftype": "Rice",
+                "price": 160,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_fried_rice_thumbnail_1654667314357.jpeg"
+            },
+            {
+                "_id": 56,
+                "fname": "Chicken Hot Wings",
+                "ftype": "Chicken",
+                "price": 145,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_hot_wings_thumbnail_1654667387590.jpeg"
             }
+            
         ]
     },
     {
-        "resname":"CP FIVE STAR",
-        "location":"OPTIMUM FOOD - Mohammadpur",
-        "resimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_f_i_v_e_s_t_a_r_o_p_t_i_m_u_m_f_o_o_d/meta/c_p_f_i_v_e_s_t_a_r_o_p_t_i_m_u_m_f_o_o_d_cover_1624786394767.jpeg",
-        "minOrder":"100",
-        "rank":"4.1/5 ",
-        "delfee":36,
-        "food":[
+        "resname": "CP FIVE STAR",
+        "location": "OPTIMUM FOOD - Mohammadpur",
+        "resimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_f_i_v_e_s_t_a_r_o_p_t_i_m_u_m_f_o_o_d/meta/c_p_f_i_v_e_s_t_a_r_o_p_t_i_m_u_m_f_o_o_d_cover_1624786394767.jpeg",
+        "minOrder": "100",
+        "rank": "4.1/5 ",
+        "delfee": 36,
+        "food": [
             {
-                "fname":"Cold Chicken Sandwich",
-                "ftype":"Sandwich",
-                "price":110,
-                "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_cold_chicken_sandwich_150gm_thumbnail_1650180282455.jpeg"
+                "_id": 57,
+                "fname": "Chicken Lollipop",
+                "ftype": "Chicken",
+                "price": 70,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_chicken_lollipop_thumbnail_1654667140683.jpeg"
             },
             {
-                "fname":"Vanilla Pastry 50gm",
-                "ftype":"Pastry",
-                "price":85,
-                "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_cold_chicken_sandwich_150gm_thumbnail_1650180282455.jpeg" 
+                "_id": 58,
+                "fname": "Chicken Hot Sausage",
+                "ftype": "Chicken",
+                "price": 30,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_chicken_hot_sausage_thumbnail_1654667365089.jpeg"
             },
             {
-                "fname":"Mexican Mini Burger",
-                "ftype":"Sandwich",
-                "price":80,
-                "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_mexican_mini_burger_thumbnail_1650180455446.jpeg"
+                "_id": 59,
+                "fname": "Sausage Delight Pizza",
+                "ftype": "Sancks",
+                "price": 85,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_sausage_delight_pizza_thumbnail_1650180369537.jpeg"
             },
             {
-                "fname":"Sausage Delight Pizza",
-                "ftype":"Sancks",
-                "price":85,
-                "fimg":"https://static.hungrynaki.com/hungrynaki-v4/restaurants/tasty_treat/items/tasty_treat_sausage_delight_pizza_thumbnail_1650180369537.jpeg"
+                "_id": 60,
+                "fname": "Regular Chicken Chowmein",
+                "ftype": "Noodles",
+                "price": 185,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/pizza_organica/items/pizza_organica_regular_chicken_chowmein_thumbnail_1646196013979.jpeg"
+            },
+            {
+                "_id": 61,
+                "fname": "Fried Rice",
+                "ftype": "Rice",
+                "price": 160,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_fried_rice_thumbnail_1654667314357.jpeg"
+            },
+            {
+                "_id": 62,
+                "fname": "Chicken Hot Wings",
+                "ftype": "Chicken",
+                "price": 145,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_hot_wings_thumbnail_1654667387590.jpeg"
+            },
+            {
+                "_id": 63,
+                "fname": "Karaage Chicken",
+                "ftype": "Chicken",
+                "price": 150,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/c_p_five_star_mirchi_kabab_grill/items/c_p_five_star_mirchi_kabab_grill_karaage_chicken_thumbnail_1654667253959.jpeg"
+            },
+            {
+                "_id": 64,
+                "fname": "Regular Beef Chowmein",
+                "ftype": "Noodles",
+                "price": 220,
+                "fimg": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/pizza_organica/items/pizza_organica_regular_beef_chowmein_thumbnail_1646196049800.jpeg"
             }
+            
         ]
     }
-    
 ]
