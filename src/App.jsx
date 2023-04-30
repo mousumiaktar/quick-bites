@@ -10,7 +10,7 @@ import Welcome from "./components/Pages/dashboard/Welcome"
 import Profile from "./components/Pages/dashboard/user/Profile"
 import MyOrder from "./components/Pages/dashboard/user/MyOrder"
 import AddReview from "./components/Pages/dashboard/user/AddReview"
-import AddRestaurant from "./components/Pages/dashboard/admin/AddRestaurant"
+import AddFood from "./components/Pages/dashboard/admin/AddFood"
 import MakeAdmin from "./components/Pages/dashboard/admin/MakeAdmin"
 import ManageOrder from "./components/Pages/dashboard/admin/ManageOrder"
 import ManageFood from "./components/Pages/dashboard/admin/ManageFood"
@@ -39,7 +39,7 @@ function App() {
           <Route path="myorder" element={<MyOrder />}></Route>
           <Route path="addreview" element={<AddReview />}></Route>
           <Route path="addreview" element={<AddReview />}></Route>
-          <Route path="addrestaurant" element={<AddRestaurant />}></Route>
+          <Route path="addfood" element={<AddFood />}></Route>
           <Route path="makeadmin" element={<MakeAdmin />}></Route>
           <Route path="manageorder" element={<ManageOrder />}></Route>
           <Route path="managefood" element={<ManageFood />}></Route>
