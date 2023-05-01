@@ -5,6 +5,8 @@ import SearchHero from "./OthersDesign/SearchHero";
 import TwoCart from "./OthersDesign/TwoCart";
 import Restaurants from "./Restaurants";
 import TopRestaurants from "./OthersDesign/TopRestaurants";
+import AboutTeam from "./OthersDesign/AboutTeam";
+
 
 const Home = () => {
     return (
@@ -14,6 +16,7 @@ const Home = () => {
             <Restaurants />
             <TwoCart />
             <TopRestaurants />
+            <AboutTeam />
             <About />
             <MobileApp />
         </div>
