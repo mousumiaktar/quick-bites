@@ -1,0 +1,50 @@
+[
+    {
+      "fname": " Chicken Fried Rice",
+      "ftype": "rice",
+      "price": 180,
+      "fimg": "https://recipes.timesofindia.com/thumb/75581339.cms?width=1200&height=900"
+    },
+    {
+      "fname": "Chicken chilli dry with fried rice and noodles",
+      "ftype": "rice",
+      "price": 200,
+      "fimg": "https://img-global.cpcdn.com/recipes/fc77bb545120c3a8/1200x630cq70/photo.jpg"
+    },
+    {
+      "fname": "Classic Beef Stir Fry Recipe",
+      "ftype": "rice",
+      "price": 250,
+      "fimg": "https://www.mashed.com/img/gallery/classic-beef-stir-fry-recipe/l-intro-1650471286.jpg"
+    },
+    {
+      "fname": "Seafood Biryani",
+      "ftype": "Biryani",
+      "price": 180,
+      "fimg": "https://i.ytimg.com/vi/xEpxXbBBFiU/maxresdefault.jpg"
+    },
+    {
+      "fname": "Hyderabadi biryani Mutton pulao",
+      "ftype": "pulao",
+      "price": 300,
+      "fimg": "https://w7.pngwing.com/pngs/535/798/png-transparent-hyderabadi-biryani-mutton-pulao-indian-cuisine-pilaf-rice-food-recipe-cuisine.png"
+    },
+    {
+      "fname": "Grilled Mutton Ribs with Nawabi Rice",
+      "ftype": "Rice",
+      "price": 300,
+      "fimg": "https://www.masala.tv/wp-content/uploads/2020/08/Grilled-mutton-ribs-with-nawabi-ricee.jpg"
+    },
+    {
+      "fname": "Authentic beef majboos",
+      "ftype": "majboos",
+      "price": 280,
+      "fimg": "https://i.ytimg.com/vi/k-Rfq1Q1AIg/maxresdefault.jpg"
+    },
+    {
+      "fname": "Authentic Chicken majboos",
+      "ftype": "majboos",
+      "price": 200,
+      "fimg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCa4SCDWay1YtwW-qDKg6IohnSaAULJe6I710C0hY8lCuQioTQBlj_1NVbI2wnr2hsgyA&usqp=CAU"
+    }
+  ]
