@@ -8,8 +8,8 @@ const Ldb = () => {
         AOS.init({ duration: 2000 });
     }, []);
     return (
-        <div className="bg-[#dee2e6]">
-            <div className="flex lg:min-h-screen  py-6 items-center justify-center ">
+        <div className="bg-[url('https://b.zmtcdn.com/mx-onboarding-hero87f77501659a5656cad54d98e72bf0d81627911821.webp')]" >
+            <div className="flex py-6 items-center justify-center">
                 <div className="grid grid-cols-1   gap-5 md:grid-cols-3 lg:grid-cols-4">
                     <div
                         data-aos="zoom-in"
@@ -18,7 +18,7 @@ const Ldb = () => {
                         <div className="h-96 w-72">
                             <img
                                 className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
-                                src="https://wossthemes.com/jack/wp-content/uploads/2018/01/blog_image_10.jpg"
+                                src="https://hips.hearstapps.com/hmg-prod/images/quick-breakfast-ideas-huevos-rancheros-1658515011.jpeg"
                                 alt=""
                             />
                         </div>
@@ -45,7 +45,7 @@ const Ldb = () => {
                         <div className="h-96 w-72">
                             <img
                                 className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
-                                src="https://wossthemes.com/jack/wp-content/uploads/2018/01/blog_image_7.jpg"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgKst_SAQNcGaM2i8Dad_HWx2d7nxh1qWYO6nVZPQk936Ch7mJIovdsSS2MHRVqyHahUY&usqp=CAU"
                                 alt=""
                             />
                         </div>
@@ -70,7 +70,7 @@ const Ldb = () => {
                         <div className="h-96 w-72">
                             <img
                                 className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
-                                src="	https://wossthemes.com/jack/wp-content/uploads/2018/01/blog_image_9.jpg"
+                                src="https://wossthemes.com/jack/wp-content/uploads/2018/01/blog_image_4.jpg"
                                 alt=""
                             />
                         </div>
@@ -95,7 +95,7 @@ const Ldb = () => {
                         <div className="h-96 w-72">
                             <img
                                 className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
-                                src="https://wossthemes.com/jack/wp-content/uploads/2018/01/blog_image_4.jpg"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqXDvM5vizax5boDUbiQCQQdpetbMBd4IWNsYVJYre2pXLr4eFW30Ana9DiSf-PMm96wE&usqp=CAU"
                                 alt=""
                             />
                         </div>
