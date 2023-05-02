@@ -22,6 +22,12 @@ import BreakFast from "./components/Pages/bdl/BreakFast"
 import Lunch from "./components/Pages/bdl/Lunch"
 import Dinner from "./components/Pages/bdl/Dinner"
 import MorningCoffee from "./components/Pages/bdl/MorningCoffee"
+import Drink from "./components/Pages/celebration/Drink"
+import BirthDay from "./components/Pages/celebration/BirthDay"
+import Gift from "./components/Pages/celebration/Gift"
+import Party from "./components/Pages/celebration/Party"
+
+
 
 
 function App() {
@@ -56,6 +62,9 @@ function App() {
             <BuyNow />
           </RequireAuth>
         }></Route>
+
+      {/* MENU FOOD */}
+
         <Route path="/breakfast" element={
           <RequireAuth>
             <BreakFast />
@@ -74,6 +83,33 @@ function App() {
         <Route path="/morningCoffee" element={
           <RequireAuth>
             <MorningCoffee />
+          </RequireAuth>
+        }></Route>
+
+
+        {/* CELEBRATION FOOD */}
+
+        <Route path="/birthday" element={
+          <RequireAuth>
+            <BirthDay />
+          </RequireAuth>
+        }></Route>
+
+        <Route path="/drink" element={
+          <RequireAuth>
+            <Drink />
+          </RequireAuth>
+        }></Route>
+
+        <Route path="/gift" element={
+          <RequireAuth>
+            <Gift />
+          </RequireAuth>
+        }></Route>
+
+        <Route path="/party" element={
+          <RequireAuth>
+           <Party />
           </RequireAuth>
         }></Route>
 

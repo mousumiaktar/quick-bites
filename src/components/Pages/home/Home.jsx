@@ -7,6 +7,7 @@ import Restaurants from "./Restaurants";
 import TopRestaurants from "./OthersDesign/TopRestaurants";
 import AboutTeam from "./OthersDesign/AboutTeam";
 import Ldb from "../bdl/Ldb";
+import Celebration from "../celebration/Celebration";
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
             <Ldb />
             <HowItWorks />
             <Restaurants />
+            <Celebration />
             <TwoCart />
             <TopRestaurants />
             <AboutTeam />
