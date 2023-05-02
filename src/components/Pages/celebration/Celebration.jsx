@@ -10,11 +10,10 @@ const Celebration = () => {
      AOS.init({ duration: 2000 });
    }, []);
    return (
-    <div className=" py-12 bg-[#dee2e6]">
+    <div className=" py-4 bg-[#dee2e6] bg-[url('https://b.zmtcdn.com/mx-onboarding-hero87f77501659a5656cad54d98e72bf0d81627911821.webp')]">
       <div className="container mx-auto">
         <h1
-          className="text-3xl text-center mb-12
-        
+          className="text-3xl text-red-500 text-center mb-6
         "
         >
           CELEBRATIONS FOOD
@@ -29,7 +28,7 @@ const Celebration = () => {
               <div className="h-96 w-72">
                 <img
                   className="h-full w-full object-cover transition-transform duration-500  group-hover:scale-125"
-                  src="https://duruthemes.com/demo/html/florya/img/services/3.jpg"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRktHa3vt445X2akQK_UC-ORKwh7o6gqGLZMQ&usqp=CAU"
                   alt=""
                 />
               </div>
@@ -56,7 +55,7 @@ const Celebration = () => {
               <div className="h-96 w-72">
                 <img
                   className="h-full w-full object-cover transition-transform duration-500  group-hover:scale-125"
-                  src="		https://m.media-amazon.com/images/I/71GBNnFsLXL._AC_UL320_.jpg"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROMjrmCeL4StTkTeFnYlDetLG5o0Z-kulHTA&usqp=CAU"
                   alt=""
                 />
               </div>
@@ -83,7 +82,7 @@ const Celebration = () => {
               <div className="h-96 w-72">
                 <img
                   className="h-full w-full object-cover transition-transform duration-500  group-hover:scale-125"
-                  src="https://duruthemes.com/demo/html/florya/img/services/5.jpg"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREKAs8Bvjdy-Zuv14HB67I_CSlTIFK468jlw&usqp=CAU"
                   alt=""
                 />
               </div>
@@ -110,7 +109,7 @@ const Celebration = () => {
               <div className="h-96 w-72">
                 <img
                   className="h-full w-full object-cover transition-transform duration-500  group-hover:scale-125"
-                  src="https://images.deliveryhero.io/image/fd-bd/LH/jad1-listing.jpg?width=400&height=292"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa7m6jzhbVsUA6Vrxp8uI7kVBhrO1r2JvYwL3aMvACbwPZIVjUUQC8PBwwa5GUXAJYycA&usqp=CAU"
                   alt=""
                 />
               </div>

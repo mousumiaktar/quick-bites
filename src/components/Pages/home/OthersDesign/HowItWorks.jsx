@@ -3,7 +3,7 @@ const HowItWorks = () => {
 
     return (
         <div
-            className="py-32 px-16"
+            className="py-20 px-16"
             style={{
                 backgroundImage: `url("https://www.khanidani.com/assets/images/works.jpg")`,
             }}

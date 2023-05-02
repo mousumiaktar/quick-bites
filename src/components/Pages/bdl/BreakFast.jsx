@@ -1,4 +1,3 @@
-import { useGetBreakfastQuery } from "../../../features/api/apiSlice";
 import Loading from "../../shared/Loading";
 import { BsCartPlus } from "react-icons/bs";
 import { useDispatch } from "react-redux";
@@ -11,6 +10,7 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import { useEffect } from "react";
 import AboutRestaurant from "../home/OthersDesign/AboutRestaurant";
+import { useGetBreakfastQuery } from "../../../features/api/ApiSlice";
 
 
 const BreakFast = () => {

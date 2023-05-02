@@ -17,8 +17,9 @@ const Home = () => {
             <SearchHero />
             <AboutRestaurant />
             <Restaurants />
-            <HowItWorks />
+           
             <Ldb />
+            <HowItWorks />
            
 
             <Celebration />

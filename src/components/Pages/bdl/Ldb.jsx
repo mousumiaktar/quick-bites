@@ -8,7 +8,8 @@ const Ldb = () => {
         AOS.init({ duration: 2000 });
     }, []);
     return (
-        <div className="bg-[url('https://b.zmtcdn.com/mx-onboarding-hero87f77501659a5656cad54d98e72bf0d81627911821.webp')]" >
+        <div className="bg-[url('https://b.zmtcdn.com/mx-onboarding-hero87f77501659a5656cad54d98e72bf0d81627911821.webp')] mt-10 py-4" >
+            <h4 className="text-red-500 font-bold text-3xl py-3 text-center"> Meals Three Times</h4>
             <div className="flex py-6 items-center justify-center">
                 <div className="grid grid-cols-1   gap-5 md:grid-cols-3 lg:grid-cols-4">
                     <div
