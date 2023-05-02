@@ -6,12 +6,14 @@ import TwoCart from "./OthersDesign/TwoCart";
 import Restaurants from "./Restaurants";
 import TopRestaurants from "./OthersDesign/TopRestaurants";
 import AboutTeam from "./OthersDesign/AboutTeam";
+import Ldb from "../bdl/Ldb";
 
 
 const Home = () => {
     return (
         <div>
             <SearchHero />
+            <Ldb />
             <HowItWorks />
             <Restaurants />
             <TwoCart />

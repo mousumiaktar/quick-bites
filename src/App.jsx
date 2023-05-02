@@ -18,6 +18,10 @@ import BuyNow from "./components/Pages/orderNow/BuyNow"
 import RequireAuth from "./components/Pages/Authentication/RequireAuth"
 import Blog from "./components/Pages/blog/Blog"
 import AllUser from "./components/Pages/dashboard/admin/AllUser"
+import BreakFast from "./components/Pages/bdl/BreakFast"
+import Lunch from "./components/Pages/bdl/Lunch"
+import Dinner from "./components/Pages/bdl/Dinner"
+import MorningCoffee from "./components/Pages/bdl/MorningCoffee"
 
 
 function App() {
@@ -52,6 +56,29 @@ function App() {
             <BuyNow />
           </RequireAuth>
         }></Route>
+        <Route path="/breakfast" element={
+          <RequireAuth>
+            <BreakFast />
+          </RequireAuth>
+        }></Route>
+        <Route path="/lunch" element={
+          <RequireAuth>
+            <Lunch />
+          </RequireAuth>
+        }></Route>
+        <Route path="/dinner" element={
+          <RequireAuth>
+            <Dinner />
+          </RequireAuth>
+        }></Route>
+        <Route path="/morningCoffee" element={
+          <RequireAuth>
+            <MorningCoffee />
+          </RequireAuth>
+        }></Route>
+
+
+
         <Route path="/dashboard" element={<Dashboard />}></Route>
         <Route path="/dashboard" element={<Dashboard />}>
           <Route index element={<Welcome />}></Route>
