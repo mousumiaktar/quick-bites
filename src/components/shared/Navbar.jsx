@@ -1,6 +1,5 @@
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { HiOutlineShoppingBag } from 'react-icons/hi';
-import { RxAvatar } from 'react-icons/rx';
 import auth from '../../firebase.init';
 import { Link } from 'react-router-dom';
 import { signOut } from 'firebase/auth';
@@ -51,7 +50,7 @@ const Navbar = () => {
 
                             <div className="peer-checked:translate-x-0 fixed inset-0 w-[calc(100%-4.5rem)] translate-x-[-100%] bg-white border-r shadow-xl transition duration-300 lg:border-r-0 lg:w-auto lg:static lg:shadow-none lg:translate-x-0">
                                 <div className="flex flex-col h-full justify-between lg:items-center lg:flex-row">
-                                    <ul className="px-6 pt-32 text-gray-700 space-y-8 md:px-12 lg:space-y-0 lg:flex lg:space-x-12 lg:pt-0">
+                                    <ul className="px-4 pt-32 text-gray-700 space-y-8 md:px-4 lg:space-y-0 lg:flex lg:space-x-6 lg:pt-0 font-bold">
                                         <Link to="home">
                                             <li>
                                                 <div className="flex items-center">
@@ -82,23 +81,14 @@ const Navbar = () => {
                                                 <Link to="cart">
                                                     <li className="">
                                                         <div className="flex items-center ">
-                                                            <span className="relative mt-1 group-hover:text-cyan-800 text-red-500 text-2xl">
+                                                            <span className="relative mt-1 group-hover:text-cyan-800 text-2xl text-black">
                                                                 <HiOutlineShoppingBag />
                                                             </span>
-                                                            <span>{list?.length}</span>
+                                                            <span className='bg-red-500 px-2 rounded-full text-white mb-4'>{list?.length}</span>
                                                         </div>
                                                     </li>
                                                 </Link>
-                                                <li>
-                                                    <div className="flex items-center">
-                                                        <span className="relative group-hover:text-cyan-800 text-2xl ">
-                                                            <RxAvatar />
-                                                        </span>
-                                                        <span className="relative px-2 group-hover:text-cyan-800 text-2xl ">
-                                                            Ridima Rahman
-                                                        </span>
-                                                    </div>
-                                                </li>
+                                                
                                                 <li>
                                                     <div className="flex items-center">
                                                         <span className="relative px-2   text-red-500 text-2xl">
@@ -108,7 +98,7 @@ const Navbar = () => {
                                                 </li>
                                                 <li>
                                                     <div className="flex items-center">
-                                                        <span className="relative px-2   text-red-500 text-2xl">
+                                                        <span className="relative px-2   text-red-500 text-2xl border border-red-500 rounded-lg">
                                                             <Link onClick={logout}>Logout</Link>
                                                         </span>
                                                     </div>
