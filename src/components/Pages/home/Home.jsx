@@ -17,11 +17,8 @@ const Home = () => {
             <SearchHero />
             <AboutRestaurant />
             <Restaurants />
-           
             <Ldb />
             <HowItWorks />
-           
-
             <Celebration />
             <TwoCart />
             {/* <TopRestaurants /> */}
