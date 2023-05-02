@@ -4,38 +4,19 @@ const AboutTeam = () => {
     return (
         <div className="container mx-auto">
             <h1
-                className="text-3xl lg:text-start md:text-center text-center mb-2
-         inline-block
-                relative
+                className="text-3xl xl:text-center md:text-center lg:text-center text-center mb-2
                 cursor-pointer
-                transition-all
-                duration-500
-                before:content-['']
-                before:absolute
-                before:-bottom-2
-                before:left-0
-                before:w-0
-                before:h-1.5
-                before:rounded-full
-                before:opacity-0
-                before:transition-all
-                before:duration-500
-                before:bg-gradient-to-r
-                before:from-red-500
-                before:via-red-400
-                before:to-red-500
-                hover:before:w-full
-                hover:before:opacity-100
+                
         "
             >
-                popular chefs
+                OUR POPULAR CHEFS
             </h1>
-            <p className=" lg:text-start md:text-center text-center">
+            <p className=" md:text-center text-center text-xl text-red-500">
                 Selected with custamer reviews
             </p>
             <div className="grid lg:grid-cols-4  md:grid-cols-2  gap-4 py-6">
-                <div className="flex   justify-center bg-slate-100">
-                    <div className="group h-96 w-80 [perspective:1000px]">
+                <div className="flex justify-center">
+                    <div className="group h-96 w-80 [perspective:1000px] border-2 border-red-500 rounded-xl">
                         <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                             <div className="absolute inset-0">
                                 <img
@@ -61,8 +42,8 @@ const AboutTeam = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex   justify-center bg-slate-100">
-                    <div className="group h-96 w-80 [perspective:1000px]">
+                <div className="flex   justify-center">
+                    <div className="group h-96 w-80 [perspective:1000px] border-2 border-red-500 rounded-xl">
                         <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                             <div className="absolute inset-0">
                                 <img
@@ -88,8 +69,8 @@ const AboutTeam = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex   justify-center bg-slate-100">
-                    <div className="group h-96 w-80 [perspective:1000px]">
+                <div className="flex justify-center">
+                    <div className="group h-96 w-80 [perspective:1000px] border-2 border-red-500 rounded-xl">
                         <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                             <div className="absolute inset-0">
                                 <img
@@ -115,8 +96,8 @@ const AboutTeam = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex   justify-center bg-slate-100">
-                    <div className="group h-96 w-80 [perspective:1000px]">
+                <div className="flex justify-center">
+                    <div className="group h-96 w-80 [perspective:1000px] border-2 border-red-500 rounded-xl">
                         <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                             <div className="absolute inset-0">
                                 <img
