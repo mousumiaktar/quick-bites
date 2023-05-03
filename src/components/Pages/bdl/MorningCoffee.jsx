@@ -4,12 +4,12 @@ import AboutRestaurant from "../home/OthersDesign/AboutRestaurant";
 import { BsCartPlus } from "react-icons/bs";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../../../features/api/cartSlice";
-import { useGetMorningCoffeeQuery } from "../../../features/api/apiSlice";
 import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper";
+import { useGetMorningCoffeeQuery } from "../../../features/api/ApiSlice";
 
 
 const MorningCoffee = () => {
@@ -31,12 +31,12 @@ const MorningCoffee = () => {
     alert("added Successfully!");
   };
   return (
-    <div className="py-6">
+    <div className="md:container mx-auto py-6">
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
-          delay: 2500,
+          delay: 3000,
           disableOnInteraction: false,
         }}
         pagination={{
@@ -47,7 +47,7 @@ const MorningCoffee = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="h-[500px] w-full ">
+          <div className="md:h-[400px] h-[200px] w-full">
             <img
               src="https://wossthemes.com/jack/wp-content/uploads/2018/01/blog_image_10.jpg"
               alt=""
@@ -56,7 +56,7 @@ const MorningCoffee = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="h-[500px] w-full ">
+          <div className="md:h-[400px] h-[200px] w-full">
             <img
               src="https://wossthemes.com/jack/wp-content/uploads/2018/01/blog_image_4.jpg"
               alt=""
@@ -65,7 +65,7 @@ const MorningCoffee = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="h-[500px] w-full ">
+          <div className="md:h-[400px] h-[200px] w-full">
             <img
               src="https://wossthemes.com/jack/wp-content/uploads/2018/01/blog_image_7.jpg"
               alt=""
@@ -77,11 +77,11 @@ const MorningCoffee = () => {
 
       <AboutRestaurant />
 
-      <div className="grid lg:grid-cols-4 md:grid-cols-3 gap-2 container mx-auto">
+      <div className="grid lg:grid-cols-4 md:grid-cols-3 gap-2 lg:gap-4">
         {data?.map((data) => (
           <>
             <div className="border">
-              <img src={data?.fimg} alt="" />
+              <img className="w-full h-[250px]" src={data?.fimg} alt="" />
               <div className="flex justify-between px-4 py-4 items-center">
                 <h1 className="text-2xl">Tk.{data?.price}</h1>
                 <BsCartPlus
