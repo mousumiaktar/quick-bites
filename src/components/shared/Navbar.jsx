@@ -4,6 +4,7 @@ import auth from '../../firebase.init';
 import { Link } from 'react-router-dom';
 import { signOut } from 'firebase/auth';
 import { useSelector } from 'react-redux';
+import Logo from "../../images/logo.png"
 
 
 
@@ -23,7 +24,10 @@ const Navbar = () => {
                 <div className="px-6 lg:py-2">
                     <div className="flex items-center justify-between">
                         <div className="relative z-20">
-                            <h1 className="text-2xl font-bold py-2 text-red-500">Quick Bites</h1>
+                            <div className='flex items-center'>
+                                <img className='h-[60px]' src={Logo} alt="" />
+                                <h1 className="text-2xl font-bold py-2 text-red-500">Quick Bites</h1>
+                            </div>
                         </div>
 
                         <div className="flex items-center justify-end border-l lg:border-l-0">
@@ -88,7 +92,7 @@ const Navbar = () => {
                                                         </div>
                                                     </li>
                                                 </Link>
-                                                
+
                                                 <li>
                                                     <div className="flex items-center">
                                                         <span className="relative px-2   text-red-500 text-2xl">
