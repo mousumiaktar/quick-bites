@@ -25,7 +25,7 @@ const Drink = () => {
     alert("added Successfully!");
   };
   return (
-    <div className="py-6">
+    <div className="md:container mx-auto  py-6">
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -41,7 +41,7 @@ const Drink = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="h-[500px] w-full ">
+          <div className="md:h-[400px] h-[200px] w-full ">
             <img
               src="https://wossthemes.com/jack/wp-content/uploads/2018/01/blog_image_10.jpg"
               alt=""
@@ -50,7 +50,7 @@ const Drink = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="h-[500px] w-full ">
+          <div className="md:h-[400px] h-[200px] w-full ">
             <img
               src="https://wossthemes.com/jack/wp-content/uploads/2018/01/blog_image_4.jpg"
               alt=""
@@ -59,7 +59,7 @@ const Drink = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="h-[500px] w-full ">
+          <div className="md:h-[400px] h-[200px] w-full ">
             <img
               src="https://wossthemes.com/jack/wp-content/uploads/2018/01/blog_image_7.jpg"
               alt=""
@@ -70,13 +70,13 @@ const Drink = () => {
       </Swiper>
       <AboutRestaurant />
 
-      <div className="grid lg:grid-cols-4 md:grid-cols-3 gap-2 container mx-auto">
+      <div className="grid lg:grid-cols-4 md:grid-cols-3 lg:gap-4 gap-2">
         {data?.map((data) => (
           <>
-            <div className="border">
-              <img src={data?.fimg} alt="" />
-              <h1 className="mt-2 px-2">{data?.fname}</h1>
-              <div className="flex justify-between px-4 py-4 items-center">
+            <div className="border shadow-lg">
+              <img className="w-full h-[250px]" src={data?.fimg} alt="" />
+              <h1 className="mt-2 px-2 bg-orange-500 inline font-bold">{data?.fname}</h1>
+              <div className="flex justify-between px-4 py-1 items-center mt-5">
                 <h1 className="text-2xl">Tk.{data?.price}</h1>
                 <BsCartPlus
                   onClick={() => handleAddToCart(data)}

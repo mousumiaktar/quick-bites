@@ -29,7 +29,8 @@ const Gift = () => {
   };
 
   return (
-    <div className="md:container mx-auto px-6 mb-8">
+    <div>
+      <div className="md:container mx-auto px-6 mb-8">
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -45,7 +46,7 @@ const Gift = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className=" md:h-[150px] h-[100px] w-full ">
+          <div className="md:h-[400px] h-[200px] w-full ">
             <img
               src="https://wossthemes.com/jack/wp-content/uploads/2018/01/blog_image_10.jpg"
               alt=""
@@ -54,7 +55,7 @@ const Gift = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="h-[500px] w-full ">
+          <div className="md:h-[400px] h-[200px] w-full ">
             <img
               src="https://wossthemes.com/jack/wp-content/uploads/2018/01/blog_image_4.jpg"
               alt=""
@@ -63,7 +64,7 @@ const Gift = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="h-[500px] w-full ">
+          <div className="md:h-[400px] h-[200px] w-full ">
             <img
               src="https://wossthemes.com/jack/wp-content/uploads/2018/01/blog_image_7.jpg"
               alt=""
@@ -94,6 +95,7 @@ const Gift = () => {
         ))}
       </div>
 
+    </div>
     </div>
   );
 };

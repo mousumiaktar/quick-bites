@@ -29,7 +29,7 @@ const AllUser = () => {
     return (
       <div className="overflow-x-auto h-screen pt-8">
         <table className="table-auto w-full">
-          <thead className="bg-red-500">
+          <thead className="bg-orange-400">
             <tr>
               <th className="px-4 py-2">Index</th>
               <th className="px-4 py-2">Email</th>
