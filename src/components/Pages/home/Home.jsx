@@ -9,6 +9,7 @@ import AboutTeam from "./OthersDesign/AboutTeam";
 import Ldb from "../bdl/Ldb";
 import Celebration from "../celebration/Celebration";
 import MostPopular from "./OthersDesign/MostPopular";
+import Reviews from "./reviews/Reviews";
 // import AboutRestaurant from "./OthersDesign/AboutRestaurant";
 
 
@@ -22,9 +23,8 @@ const Home = () => {
             <TwoCart />
             <MostPopular />
             <Celebration />
-            
-            
             {/* <TopRestaurants /> */}
+            <Reviews />
             <AboutTeam />
             <About />
             <MobileApp />
