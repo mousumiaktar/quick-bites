@@ -8,17 +8,18 @@ import Restaurants from "./Restaurants";
 import AboutTeam from "./OthersDesign/AboutTeam";
 import Ldb from "../bdl/Ldb";
 import Celebration from "../celebration/Celebration";
-import AboutRestaurant from "./OthersDesign/AboutRestaurant";
+// import AboutRestaurant from "./OthersDesign/AboutRestaurant";
 
 
 const Home = () => {
     return (
         <div>
             <SearchHero />
-            <AboutRestaurant />
+            <HowItWorks />
+            {/* <AboutRestaurant /> */}
             <Restaurants />
             <Ldb />
-            <HowItWorks />
+
             <Celebration />
             <TwoCart />
             {/* <TopRestaurants /> */}
