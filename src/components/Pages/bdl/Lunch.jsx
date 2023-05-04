@@ -52,7 +52,7 @@ const Lunch = () => {
                 <SwiperSlide>
                     <div className="md:h-[400px] h-[200px] w-full">
                         <img
-                            src="https://wossthemes.com/jack/wp-content/uploads/2018/01/blog_image_10.jpg"
+                            src="https://fooddy.ancorathemes.com/splash/src/img/slider/bg.jpg"
                             alt=""
                             className="h-[36rem] w-full"
                         />
@@ -61,7 +61,7 @@ const Lunch = () => {
                 <SwiperSlide>
                     <div className="md:h-[400px] h-[200px] w-full">
                         <img
-                            src="https://wossthemes.com/jack/wp-content/uploads/2018/01/blog_image_4.jpg"
+                            src="https://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/01/background-burgers-home-top.jpg"
                             alt=""
                             className="h-[36rem] w-full"
                         />
@@ -70,7 +70,7 @@ const Lunch = () => {
                 <SwiperSlide>
                     <div className="md:h-[400px] h-[200px] w-full">
                         <img
-                            src="https://wossthemes.com/jack/wp-content/uploads/2018/01/blog_image_7.jpg"
+                            src="https://foodbakery.chimpgroup.com/homev1/wp-content/uploads/call-to-action-paralax.jpg"
                             alt=""
                             className="h-[36rem] w-full"
                         />
