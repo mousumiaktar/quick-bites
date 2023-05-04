@@ -30,30 +30,24 @@ const SearchHero = () => {
             </div>
             <div className="bg-[#EB6825] py-8">
                 <div className="md:container mx-auto px-6 md:grid grid-cols-3">
-                    <div className=" flex justify-center">
+                    <div className="md:flex justify-center">
                         <div className='flex items-center gap-2'>
                             <span className='text-white'><BsFillCheckCircleFill /></span>
                             <div className="text-white text-xl"><span className="text-2xl">8</span> Restaurant</div>
                         </div>
                     </div>
-                    <div className=" flex justify-center">
+                    <div className="md:flex justify-center">
                         <div className='flex items-center gap-2'>
                             <span className='text-white'><BsFillCheckCircleFill /></span>
                             <div className="text-white text-xl"><span className="text-2xl">111</span> People Served</div>
                         </div>
                     </div>
-                    <div className=" flex justify-center">
+                    <div className="md:flex justify-center">
                         <div className='flex items-center gap-2'>
                             <span className='text-white'><BsFillCheckCircleFill /></span>
                             <div className="text-white text-xl"><span className="text-2xl">50</span> Registerd Users</div>
                         </div>
                     </div>
-                    {/* <div className=" flex justify-center">
-                        <div className='flex items-center gap-2'>
-                            <span className='text-white'><BsFillCheckCircleFill /></span>
-                            <div className="text-white text-xl"><span className="text-2xl">1000</span> Visitors</div>
-                        </div>
-                    </div> */}
                 </div>
             </div>
         </div>

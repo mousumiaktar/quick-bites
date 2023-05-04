@@ -16,12 +16,11 @@ const Home = () => {
         <div>
             <SearchHero />
             <HowItWorks />
-            {/* <AboutRestaurant /> */}
             <Restaurants />
             <Ldb />
-
-            <Celebration />
             <TwoCart />
+            <Celebration />
+            
             {/* <TopRestaurants /> */}
             <AboutTeam />
             <About />

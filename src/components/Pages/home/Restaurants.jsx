@@ -20,8 +20,8 @@ const Restaurants = () => {
 
     return (
         <div>
-            <h1 className="text-center text-3xl py-2 font-bold">CHOOSE FROM MOST POPULAR RESTAURANTS</h1>
-            <div className="grid lg:grid-cols-4  md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-2  px-16 py-6 gap-8">
+            <h1 className="text-center text-3xl py-2 font-bold text-[#333333]">CHOOSE FROM MOST POPULAR RESTAURANTS</h1>
+            <div className="grid lg:grid-cols-4  md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-2  px-16 py-6 gap-10 mt-5">
                 {data?.map((data) => (
                     <>
                         <div

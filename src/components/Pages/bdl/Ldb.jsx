@@ -8,24 +8,24 @@ const Ldb = () => {
         AOS.init({ duration: 2000 });
     }, []);
     return (
-        <div className="bg-[url('https://b.zmtcdn.com/mx-onboarding-hero87f77501659a5656cad54d98e72bf0d81627911821.webp')] mt-10 py-4" >
+        <div className=" mt-10 py-4" >
             <h4 className="text-red-500 font-bold text-3xl py-3 text-center"> Meals Three Times</h4>
             <div className="flex py-6 items-center justify-center">
-                <div className="grid grid-cols-1   gap-5 md:grid-cols-3 lg:grid-cols-4">
+                <div className="grid grid-cols-1 gap-5 xl:gap-16 md:grid-cols-4  ">
                     <div
                         data-aos="zoom-in"
-                        className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
+                        className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 border-4 border-orange-500"
                     >
                         <div className="h-96 w-72">
                             <img
-                                className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
-                                src="https://hips.hearstapps.com/hmg-prod/images/quick-breakfast-ideas-huevos-rancheros-1658515011.jpeg"
+                                className="h-full w-full object-cover transition-transform duration-500"
+                                src="https://foodbakery.chimpgroup.com/homev1/wp-content/uploads/cover-photo17-359x212.jpg"
                                 alt=""
                             />
                         </div>
                         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                         <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                            <h1 className="font-dmserif text-3xl font-bold text-white">
+                            <h1 className="text-3xl font-bold text-white bg-red-600 w-full py-1 rounded-md">
                                 Breakfast
                             </h1>
                             <p className="mb-3 text-lg  text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
@@ -33,7 +33,7 @@ const Ldb = () => {
                                 dolore adipisci placeat.
                             </p>
                             <Link to="/breakfast">
-                                <button className="rounded-full bg-red-500 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
+                                <button className="rounded-full bg-red-600 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
                                     See Food
                                 </button>
                             </Link>
@@ -41,24 +41,24 @@ const Ldb = () => {
                     </div>
                     <div
                         data-aos="zoom-in"
-                        className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
+                        className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 border-4 border-orange-500"
                     >
                         <div className="h-96 w-72">
                             <img
-                                className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
-                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgKst_SAQNcGaM2i8Dad_HWx2d7nxh1qWYO6nVZPQk936Ch7mJIovdsSS2MHRVqyHahUY&usqp=CAU"
+                                className="h-full w-full object-cover transition-transform duration-500"
+                                src="https://foodbakery.chimpgroup.com/homev1/wp-content/uploads/cover-photo10-359x212.jpg"
                                 alt=""
                             />
                         </div>
                         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                         <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                            <h1 className="font-dmserif text-3xl font-bold text-white">Lunch</h1>
+                            <h1 className="text-3xl font-bold text-white bg-red-600 w-full py-1 rounded-md">Lunch</h1>
                             <p className="mb-3 text-lg  text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
                                 dolore adipisci placeat.
                             </p>
                             <Link to="/lunch">
-                                <button className="rounded-full bg-red-500 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
+                                <button className="rounded-full bg-red-600 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
                                     See Food
                                 </button>
                             </Link>
@@ -66,24 +66,24 @@ const Ldb = () => {
                     </div>
                     <div
                         data-aos="zoom-in"
-                        className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
+                        className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 border-4 border-orange-500"
                     >
                         <div className="h-96 w-72">
                             <img
-                                className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
-                                src="https://wossthemes.com/jack/wp-content/uploads/2018/01/blog_image_4.jpg"
+                                className="h-full w-full object-cover transition-transform duration-500"
+                                src="https://foodbakery.chimpgroup.com/homev1/wp-content/uploads/cover-photo24-359x212.jpg"
                                 alt=""
                             />
                         </div>
                         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                         <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                            <h1 className="font-dmserif text-3xl font-bold text-white">Dinner</h1>
+                            <h1 className="text-3xl font-bold text-white bg-red-600 w-full py-1 rounded-md">Dinner</h1>
                             <p className="mb-3 text-lg  text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
                                 dolore adipisci placeat.
                             </p>
                             <Link to="/dinner">
-                                <button className="rounded-full bg-red-500 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
+                                <button className="rounded-full bg-red-600 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
                                     See Food
                                 </button>
                             </Link>
@@ -91,18 +91,18 @@ const Ldb = () => {
                     </div>
                     <div
                         data-aos="zoom-in"
-                        className="group relative  cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
+                        className="group relative  cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 border-4 border-orange-500"
                     >
                         <div className="h-96 w-72">
                             <img
-                                className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
-                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqXDvM5vizax5boDUbiQCQQdpetbMBd4IWNsYVJYre2pXLr4eFW30Ana9DiSf-PMm96wE&usqp=CAU"
+                                className="h-full w-full object-cover transition-transform duration-500"
+                                src="https://foodbakery.chimpgroup.com/homev1/wp-content/uploads/cover-photo09-359x212.jpg"
                                 alt=""
                             />
                         </div>
                         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                         <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                            <h1 className="font-dmserif text-3xl font-bold text-white">
+                            <h1 className="text-3xl font-bold text-white bg-red-600 w-full py-1 rounded-md">
                                 Night Drink
                             </h1>
                             <p className="mb-3 text-lg  text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
@@ -110,7 +110,7 @@ const Ldb = () => {
                                 dolore adipisci placeat.
                             </p>
                             <Link to="/morningcoffee">
-                                <button className="rounded-full bg-red-500 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
+                                <button className="rounded-full bg-red-600 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
                                     See Food
                                 </button>
                             </Link>
