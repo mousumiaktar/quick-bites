@@ -1,4 +1,4 @@
-import  { useEffect } from "react";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -10,6 +10,7 @@ const Ldb = () => {
     return (
         <div className=" mt-10 py-4" >
             <h4 className="text-red-500 font-bold text-3xl py-3 text-center"> Meals Three Times</h4>
+            <p className="text-center text-xl text-[#333333]">Explore restaurants, bars, and cafés by locality</p>
             <div className="flex py-6 items-center justify-center">
                 <div className="grid grid-cols-1 gap-5 xl:gap-16 md:grid-cols-4  ">
                     <div
@@ -18,17 +19,17 @@ const Ldb = () => {
                     >
                         <div className="h-96 w-72">
                             <img
-                                className="h-full w-full object-cover transition-transform duration-500"
+                                className="h-full w-full object-cover transition-transform duration-500  group-hover:scale-125"
                                 src="https://foodbakery.chimpgroup.com/homev1/wp-content/uploads/cover-photo17-359x212.jpg"
                                 alt=""
                             />
                         </div>
                         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-                        <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                        <div className="absolute inset-0 flex  flex-col items-center justify-center px-9 text-center transition-all duration-500 translate-y-0">
                             <h1 className="text-3xl font-bold text-white bg-red-600 w-full py-1 rounded-md">
                                 Breakfast
                             </h1>
-                            <p className="mb-3 text-lg  text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                            <p className="mb-3 text-lg  text-white transition-opacity duration-300 opacity-100">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
                                 dolore adipisci placeat.
                             </p>
@@ -45,15 +46,15 @@ const Ldb = () => {
                     >
                         <div className="h-96 w-72">
                             <img
-                                className="h-full w-full object-cover transition-transform duration-500"
+                                className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-125"
                                 src="https://foodbakery.chimpgroup.com/homev1/wp-content/uploads/cover-photo10-359x212.jpg"
                                 alt=""
                             />
                         </div>
                         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-                        <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                        <div className="absolute inset-0 flex  flex-col items-center justify-center px-9 text-center transition-all duration-500 translate-y-0">
                             <h1 className="text-3xl font-bold text-white bg-red-600 w-full py-1 rounded-md">Lunch</h1>
-                            <p className="mb-3 text-lg  text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                            <p className="mb-3 text-lg  text-white transition-opacity duration-300 opacity-100">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
                                 dolore adipisci placeat.
                             </p>
@@ -70,15 +71,15 @@ const Ldb = () => {
                     >
                         <div className="h-96 w-72">
                             <img
-                                className="h-full w-full object-cover transition-transform duration-500"
+                                className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-125"
                                 src="https://foodbakery.chimpgroup.com/homev1/wp-content/uploads/cover-photo24-359x212.jpg"
                                 alt=""
                             />
                         </div>
                         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-                        <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                        <div className="absolute inset-0 flex  flex-col items-center justify-center px-9 text-center transition-all duration-500 translate-y-0">
                             <h1 className="text-3xl font-bold text-white bg-red-600 w-full py-1 rounded-md">Dinner</h1>
-                            <p className="mb-3 text-lg  text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                            <p className="mb-3 text-lg  text-white transition-opacity duration-300 opacity-100">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
                                 dolore adipisci placeat.
                             </p>
@@ -95,17 +96,17 @@ const Ldb = () => {
                     >
                         <div className="h-96 w-72">
                             <img
-                                className="h-full w-full object-cover transition-transform duration-500"
+                                className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-125"
                                 src="https://foodbakery.chimpgroup.com/homev1/wp-content/uploads/cover-photo09-359x212.jpg"
                                 alt=""
                             />
                         </div>
                         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-                        <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                        <div className="absolute inset-0 flex  flex-col items-center justify-center px-9 text-center transition-all duration-500 translate-y-0">
                             <h1 className="text-3xl font-bold text-white bg-red-600 w-full py-1 rounded-md">
                                 Night Drink
                             </h1>
-                            <p className="mb-3 text-lg  text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                            <p className="mb-3 text-lg  text-white transition-opacity duration-300 opacity-100">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
                                 dolore adipisci placeat.
                             </p>

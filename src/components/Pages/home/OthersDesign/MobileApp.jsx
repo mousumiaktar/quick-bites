@@ -4,8 +4,8 @@ import { AiFillApple } from "react-icons/ai";
 
 const MobileApp = () => {
     return (
-        <div className="px-12  bg-[#dee2e6]">
-            <div className="grid py-2  lg:grid-cols-2 md:grid-cols-2  justify-center items-center">
+        <div className="px-12  bg-gray-100">
+            <div className="md:container mx-auto grid  lg:grid-cols-2 md:grid-cols-2  justify-center items-center">
                 <div className="mt-6">
                     <h2 className="font-bold text-red-600">
                         BEST APP FOR FOODS ORDERING
@@ -48,7 +48,7 @@ const MobileApp = () => {
 
                 <div className="grid justify-center  md:order-last  order-first">
                     <img
-                        src="https://winsfolio.net/html/foodio/assets/img/manage-your.png"
+                        src="https://fooddy.ancorathemes.com/wp-content/uploads/2017/02/phone_img.png"
                         alt=""
                     />
                 </div>

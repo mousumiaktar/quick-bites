@@ -23,7 +23,7 @@ const SearchHero = () => {
                         placeholder="Enter Your Email"
                     />
 
-                    <button className="bg-red-500 py-4 rounded-xl px-12 font-bold text-white">
+                    <button className="bg-red-600 py-4 rounded-xl px-12 font-bold text-white">
                         Search
                     </button>
                 </div>
