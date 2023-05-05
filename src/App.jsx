@@ -1,3 +1,4 @@
+import "./App.css"
 import { Route, Routes } from "react-router-dom"
 import Register from "./components/Pages/Authentication/Register"
 import LogIn from "./components/Pages/Authentication/LogIn"
@@ -26,6 +27,7 @@ import Drink from "./components/Pages/celebration/Drink"
 import BirthDay from "./components/Pages/celebration/BirthDay"
 import Gift from "./components/Pages/celebration/Gift"
 import Party from "./components/Pages/celebration/Party"
+import AllReviews from "./components/Pages/dashboard/user/AllReviews"
 
 
 
@@ -124,6 +126,7 @@ function App() {
           <Route path="addreview" element={<AddReview />}></Route>
           <Route path="addfood" element={<AddFood />}></Route>
           <Route path="alluser" element={<AllUser />}></Route>
+          <Route path="allreviews" element={<AllReviews />}></Route>
           <Route path="manageorder" element={<ManageOrder />}></Route>
           <Route path="managefood" element={<ManageFood />}></Route>
           <Route path="updateprofile" element={<UpdateProfile />}></Route>

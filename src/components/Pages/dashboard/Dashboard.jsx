@@ -1,4 +1,4 @@
-import { Link, Outlet } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 import auth from "../../../firebase.init";
 import { useAuthState } from "react-firebase-hooks/auth";
 import useAdmin from "../../../hooks/useAdmin";
@@ -12,27 +12,27 @@ const Dashboard = () => {
             <div className="grid lg:grid-cols-12">
                 <div className="col-start-1 col-end-3 bg-black py-6">
                     <div className="">
-                        <Link to="profile">
-                            <h1 className="font-bold  p-2 px-6 text-white text-xl mb-3 hover:bg-orange-400 mx-3 rounded-md duration-500">
+                        <NavLink to="profile">
+                            <h1 className="font-bold  p-2 px-6 text-white text-xl mb-3 hover:bg-orange-500 mx-3 rounded-md duration-500">
                                 profile
                             </h1>
-                        </Link>
+                        </NavLink>
 
                         {!admin && (
                             <>
 
-                                <Link to="myorder">
-                                    <h1 className="font-bold  p-2 px-6 text-white text-xl mb-3 hover:bg-orange-400 mx-3 rounded-md duration-500">
+                                <NavLink to="myorder">
+                                    <h1 className="font-bold  p-2 px-6 text-white text-xl mb-3 hover:bg-orange-500 mx-3 rounded-md duration-500">
                                         Orders
                                     </h1>
-                                </Link>
+                                </NavLink>
 
 
-                                <Link to="addreview">
-                                    <h1 className="font-bold  p-2 px-6 text-white text-xl mb-3 hover:bg-orange-400 mx-3 rounded-md duration-500">
+                                <NavLink to="addreview">
+                                    <h1 className="font-bold  p-2 px-6 text-white text-xl mb-3 hover:bg-orange-500 mx-3 rounded-md duration-500">
                                         Reviews
                                     </h1>
-                                </Link>
+                                </NavLink>
 
                             </>
                         )}
@@ -40,23 +40,29 @@ const Dashboard = () => {
 
                         {admin && (
                             <>
-                                <Link to="addfood">
-                                    <h1 className="font-bold  p-2 px-6 text-white text-xl mb-3 hover:bg-orange-400 mx-3 rounded-md duration-500">
+                                <NavLink to="addfood">
+                                    <h1 className="font-bold  p-2 px-6 text-white text-xl mb-3 hover:bg-orange-500 mx-3 rounded-md duration-500">
                                         Add Food
                                     </h1>
-                                </Link>
-                                <Link to="managefood">
-                                    <h1 className="font-bold  p-2 px-6 text-white text-xl mb-3 hover:bg-orange-400 mx-3 rounded-md duration-500">
+                                </NavLink>
+                                <NavLink to="managefood">
+                                    <h1 className="font-bold  p-2 px-6 text-white text-xl mb-3 hover:bg-orange-500 mx-3 rounded-md duration-500">
                                         Manage Food
                                     </h1>
-                                </Link>
-                                <Link to="alluser">
-                                    <h1 className="font-bold  p-2 px-6 text-white text-xl mb-3 hover:bg-orange-400 mx-3 rounded-md duration-500">
+                                </NavLink>
+                                <NavLink to="alluser">
+                                    <h1 className="font-bold  p-2 px-6 text-white text-xl mb-3 hover:bg-orange-500 mx-3 rounded-md duration-500">
                                         All User
                                     </h1>
-                                </Link>
+                                </NavLink>
                             </>
                         )}
+
+                        <NavLink to="allreviews">
+                            <h1 className="font-bold  p-2 px-6 text-white text-xl mb-3 hover:bg-orange-500 mx-3 rounded-md duration-500">
+                               All reviews
+                            </h1>
+                        </NavLink>
 
 
 

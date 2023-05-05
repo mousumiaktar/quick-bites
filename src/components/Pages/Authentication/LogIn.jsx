@@ -4,6 +4,7 @@ import { useForm } from "react-hook-form";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import Loading from "../../shared/Loading";
 import useToken from "../../../hooks/useToken";
+import Logo from "../../../images/logo.png"
 
 
 const LogIn = () => {
@@ -50,12 +51,13 @@ const LogIn = () => {
             <div className="flex justify-center items-center py-4 h-screen">
                 <div className="lg:w-6/12 shadow-xl p-6">
                     <div className="grid lg:grid-cols-2 grid-cols-1">
-                        <div className="bg-red-500">
-                            <img
-                                className=""
-                                src="https://winsfolio.net/html/foodio/assets/img/hero-1.jpg"
-                                alt="fgd"
-                            />
+                        <div className="bg-black py-6">
+                            <div className="flex justify-center">
+                                <div className="md:mt-[10%]">
+                                    <img className="h-[100px]" src={Logo} alt="" />
+                                    <h1 className="text-3xl font-bold text-white">Quick Bites</h1>
+                                </div>
+                            </div>
                         </div>
                         <div className="px-5">
                             <h1 className="font-bold text-2xl">Login</h1>
@@ -128,13 +130,13 @@ const LogIn = () => {
                                     {signInError}
 
                                     <input
-                                        className="border-2 border-gray-700 w-full rounded-sm p-2 mt-4"
+                                        className="border-2 border-gray-700 w-full rounded-sm p-2 mt-4 cursor-pointer"
                                         type="submit"
                                         value="Login"
                                     />
                                 </div>
                             </form>
-                            <p className="text-bold mt-5 text-center">
+                            <p className="text-bold mt-5 text-center cursor-pointer">
                                 New to Quick Bites?{" "}
                                 <Link className="text-red-500" to="/register">
                                     Create New Account

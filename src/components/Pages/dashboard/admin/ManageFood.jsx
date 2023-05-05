@@ -1,6 +1,8 @@
 import { useDeleteFoodMutation, useGetAllFoodQuery } from "../../../../features/api/ApiSlice";
 import Loading from "../../../shared/Loading";
 import Swal from "sweetalert2";
+import { FaRegEdit } from "react-icons/fa";
+import { RiDeleteBin5Line } from "react-icons/ri";
 
 const ManageFood = () => {
     const { data, isLoading, } = useGetAllFoodQuery();
@@ -30,9 +32,9 @@ const ManageFood = () => {
 
 
     return (
-        <div className="overflow-x-auto h-screen pt-8">
+        <div className="overflow-x-auto h-screen mt-5">
             <table className="table-auto w-full">
-                <thead className="bg-orange-400">
+                <thead className="bg-orange-500">
                     <tr>
                         <th className="px-4 py-2">Index</th>
                         <th className="px-4 py-2">Image</th>
@@ -49,17 +51,26 @@ const ManageFood = () => {
                                 <tr>
                                     <th className="border px-4 py-2">{index + 1}</th>
                                     <td className="border px-4 py-2">
-                                        <img className='h-12' src={food.fimg} alt='' />
+                                        <img className='h-12 w-16' src={food.fimg} alt='' />
                                     </td>
                                     <td className="border px-4 py-2">{food.fname}</td>
                                     <td className="border px-4 py-2">{food.price} TK.</td>
                                     <td className="border px-4 py-2">{food.ftype}</td>
-                                    <td className="border px-4 py-2"><button
-                                        onClick={() => handleDeletefood(food._id)}
-                                        className='bg-red-500 px-2 rounded text-white'
-                                    >
-                                        DELETE
-                                    </button></td>
+                                    <td className="border px-4 py-2">
+                                        <div className="flex justify-around">
+                                        <button
+                                            onClick={() => handleDeletefood(food._id)}
+                                            className='text-red-600 px-2 rounded'
+                                        >
+                                           <RiDeleteBin5Line  size={20} />
+                                        </button>
+                                        <button
+                                            className='text-red-600 px-2 rounded '
+                                        >
+                                           <FaRegEdit size={20} />
+                                        </button>
+                                    </div></td>
+                                    
                                 </tr>
                             </>
                         ))

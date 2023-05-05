@@ -34,7 +34,7 @@ const MyOrder = () => {
     return (
         <div className="overflow-x-auto h-screen pt-8">
             <table className="table-auto w-full">
-                <thead className="bg-orange-400">
+                <thead className="bg-orange-500">
                     <tr>
                         <th className="px-4 py-2">Index</th>
                         <th className="px-4 py-2">Image</th>

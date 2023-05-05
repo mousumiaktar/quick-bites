@@ -7,6 +7,7 @@ import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router-dom";
 import Loading from "../../shared/Loading";
 import useToken from "../../../hooks/useToken";
+import Logo from "../../../images/Logo.png"
 
 
 const Register = () => {
@@ -51,8 +52,13 @@ const Register = () => {
         <div className="flex justify-center items-center h-screen">
             <div className="lg:w-6/12 shadow-xl p-6">
                 <div className="grid lg:grid-cols-2 grid-cols-1">
-                    <div className="bg-red-500">
-                        <img className="" src="" alt="alt" />
+                    <div className="bg-black py-6">
+                        <div className="flex justify-center">
+                            <div className="md:mt-[10%]">
+                                <img className="h-[100px]" src={Logo} alt="" />
+                                <h1 className="text-3xl font-bold text-white">Quick Bites</h1>
+                            </div>
+                        </div>
                     </div>
                     <div className="px-5">
                         <h1 className="font-bold text-2xl">Signup</h1>
@@ -147,13 +153,13 @@ const Register = () => {
                                 {signInError}
 
                                 <input
-                                    className="border-2 border-gray-700 w-full rounded-sm p-2 mt-4"
+                                    className="border-2 border-gray-700 w-full rounded-sm p-2 mt-4 cursor-pointer"
                                     type="submit"
                                     value="Signup"
                                 />
                             </div>
                         </form>
-                        <p className="mt-4">
+                        <p className="mt-4 cursor-pointer">
                             Already have an account?{" "}
                             <Link className="text-red-500" to="/login">
                                 Please login

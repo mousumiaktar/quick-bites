@@ -32,6 +32,7 @@ const AddFood = () => {
 
     return (
         <div className="h-screen pt-8">
+            <h2 className="text-2xl font-bold mt-5 text-center"><u>ADD FOOD</u></h2>
             <div className="shadow-xl py-6 px-4">
                 <form onSubmit={handlePost}>
                     <label htmlFor="email" className="block text-gray-700 font-bold mb-2">
@@ -41,7 +42,7 @@ const AddFood = () => {
                         type="text"
                         name="name"
                         required
-                        className=" border 2 rounded w-[50%] py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        className=" border 2 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                     />
                     <label htmlFor="email" className="block text-gray-700 font-bold mb-2">
                         Food types
@@ -50,7 +51,7 @@ const AddFood = () => {
                         type="text"
                         name="type"
                         required
-                        className=" border 2 rounded w-[50%] py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        className=" border 2 roundedw-full w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                     />
                     <label htmlFor="email" className="block text-gray-700 font-bold mb-2">
                         Food Price
@@ -59,7 +60,7 @@ const AddFood = () => {
                         type="number"
                         name="price"
                         required
-                        className=" border 2 rounded w-[50%] py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        className=" border 2 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                     />
                     <label htmlFor="email" className="block text-gray-700 font-bold mb-2">
                         Food image Link
@@ -68,12 +69,12 @@ const AddFood = () => {
                         type="text"
                         name="img"
                         required
-                        className=" border 2 rounded w-[50%] py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        className=" border 2 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                     />
                     <br />
                     <button
                         type="submit"
-                        className="bg-red-400 w-[50%] mt-6 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                        className="bg-orange-500 w-full mt-6 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                     >
                         Submit
                     </button>

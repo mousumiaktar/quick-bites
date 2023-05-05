@@ -3,6 +3,7 @@ import { useQuery } from "react-query";
 import MakeAdmin from "./MakeAdmin";
 
 
+
 const AllUser = () => {
     
     

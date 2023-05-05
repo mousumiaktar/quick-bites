@@ -1,8 +1,21 @@
+import { useAuthState } from "react-firebase-hooks/auth";
+import auth from "../../../firebase.init";
+import Logo from "../../../images/logo.png"
+
 const Welcome = () => {
+    const [user] = useAuthState(auth);
     return (
         <div className='h-screen py-6'>
-            <h1 className='text-4xl text-center'>Welcome to Dashboard</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae nam labore, minus non sapiente fuga soluta rerum quis tempora cum libero recusandae, pariatur officia iure assumenda dignissimos natus tenetur officiis perspiciatis vel esse nostrum in est? Iure, ab! Hic laboriosam in ut, dignissimos, animi veritatis, quo enim consectetur placeat eaque quasi cum officia. Nesciunt, a amet inventore mollitia quod pariatur minus laborum accusantium perspiciatis dignissimos excepturi illo eius deserunt sunt tenetur omnis, nam nostrum eos sed! Exercitationem voluptatem harum nemo repellendus sint, doloribus, maiores tenetur quaerat placeat, quos cumque accusamus. Assumenda vel quod cumque eius quibusdam hic aliquam blanditiis fugiat?</p>
+            <div>
+                <h2 className="text-2xl font-bold text-center mt-5">Hey, {user.displayName}!!</h2>
+                <div className="flex justify-center">
+                    <h1 className='text-4xl text-center mt-4 shadow-lg inline py-6 px-4 rounded-lg'>Welcome to Dashboard</h1>
+                </div>
+                <div className="flex justify-center items-center mt-16 ">
+                    <img className="h-[80px]" src={Logo} alt="" />
+                    <h1 className="text-3xl font-bold ">Quick Bites</h1>
+                </div>
+            </div>
         </div>
     );
 };
