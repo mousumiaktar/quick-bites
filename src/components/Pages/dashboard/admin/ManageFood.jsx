@@ -1,7 +1,7 @@
 import { useDeleteFoodMutation, useGetAllFoodQuery } from "../../../../features/api/ApiSlice";
 import Loading from "../../../shared/Loading";
 import Swal from "sweetalert2";
-import { FaRegEdit } from "react-icons/fa";
+// import { FaRegEdit } from "react-icons/fa";
 import { RiDeleteBin5Line } from "react-icons/ri";
 
 const ManageFood = () => {
@@ -64,11 +64,11 @@ const ManageFood = () => {
                                         >
                                            <RiDeleteBin5Line  size={20} />
                                         </button>
-                                        <button
+                                        {/* <button
                                             className='text-red-600 px-2 rounded '
                                         >
                                            <FaRegEdit size={20} />
-                                        </button>
+                                        </button> */}
                                     </div></td>
                                     
                                 </tr>

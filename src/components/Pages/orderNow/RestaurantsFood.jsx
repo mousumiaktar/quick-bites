@@ -72,7 +72,7 @@ const RestaurantsFood = () => {
                   <h1 className="">
                     <AiOutlinePlus
                       onClick={() => handleAddToCart(food)}
-                      className="rounded-full text-2xl bg-red-500 text-white font-bold"
+                      className="rounded-full text-2xl bg-red-500 text-white font-bold cursor-pointer"
                     ></AiOutlinePlus>
                   </h1>
                 </div>

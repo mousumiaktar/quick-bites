@@ -61,7 +61,7 @@ const BuyNow = () => {
                 {cart?.map((food) => (
                   <>
                     <div className="card shadow-xl rounded-xl flex justify-between px-12 mt-6 items-center">
-                      <img src={food.fimg} alt="aly" className="w-[25%]" />
+                      <img  src={food.fimg} alt="aly" className="h-[80px] py-2" />
                       <div className="">
                         <div className="flex items-center justify-center gap-6">
                           <button

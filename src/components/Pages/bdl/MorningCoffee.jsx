@@ -86,7 +86,7 @@ const MorningCoffee = () => {
                 <h1 className="text-2xl">Tk.{data?.price}</h1>
                 <BsCartPlus
                   onClick={() => handleAddToCart(data)}
-                  className="text-2xl text-red-500 font-bold"
+                  className="text-2xl text-red-500 font-bold cursor-pointer"
                 ></BsCartPlus>
               </div>
             </div>
