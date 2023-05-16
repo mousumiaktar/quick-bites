@@ -28,6 +28,7 @@ import BirthDay from "./components/Pages/celebration/BirthDay"
 import Gift from "./components/Pages/celebration/Gift"
 import Party from "./components/Pages/celebration/Party"
 import AllReviews from "./components/Pages/dashboard/user/AllReviews"
+import Payment from "./components/Pages/dashboard/payment/Payment"
 
 
 
@@ -122,6 +123,7 @@ function App() {
           <Route index element={<Welcome />}></Route>
           <Route path="profile" element={<Profile />}></Route>
           <Route path="myorder" element={<MyOrder />}></Route>
+          <Route path="payment/:id" element={<Payment />}></Route>
           <Route path="addreview" element={<AddReview />}></Route>
           <Route path="addreview" element={<AddReview />}></Route>
           <Route path="addfood" element={<AddFood />}></Route>

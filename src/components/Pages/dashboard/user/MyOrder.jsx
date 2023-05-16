@@ -3,6 +3,7 @@ import Swal from "sweetalert2";
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { useDeleteOrderMutation, useGetOrderWithEmailQuery } from '../../../../features/api/ApiSlice';
 import Loading from '../../../shared/Loading';
+import { Link } from 'react-router-dom';
 
 const MyOrder = () => {
     const [user] = useAuthState(auth);
@@ -65,9 +66,13 @@ const MyOrder = () => {
                                         >
                                             Delete
                                         </button>
-                                        <button className="bg-black px-2   rounded text-white">
-                                            Pay
-                                        </button>
+                                        <div className="">
+                                            {(order.totalPrice && !order.paid) && <Link to={`/dashboard/payment/${order._id}`}><button className='text-white bg-black px-3 rounded pb-1'>pay</button></Link>}
+                                            {(order.totalPrice && order.paid) && <div>
+                                                <p><span className='text-green-600 font-bold '>Paid</span></p>
+                                                <p><span className='text-red-600'>{order.transactionId}</span></p>
+                                            </div>}
+                                        </div>
                                     </div>
                                 </td>
                             </tr>
