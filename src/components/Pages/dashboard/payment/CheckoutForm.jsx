@@ -12,7 +12,7 @@ const CheckoutForm = ({ order }) => {
     const { _id, totalPrice, name } = order;
 
     useEffect(() => {
-        fetch('http://localhost:5000/create-payment-intent', {
+        fetch('https://quickbites.onrender.com/create-payment-intent', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',
@@ -76,7 +76,7 @@ const CheckoutForm = ({ order }) => {
                 order: _id,
                 transactionId: paymentIntent._id
             }
-            fetch(`http://localhost:5000/myorder/${_id}`, {
+            fetch(`https://quickbites.onrender.com/myorder/${_id}`, {
                 method: 'PATCH',
                 headers: {
                     'content-type': 'application/json',

@@ -1,7 +1,7 @@
 const MakeAdmin = ({user,index}) => {
        const { email, role, _id } = user;
        const makeAd = () => {
-         fetch(`http://localhost:5000/user/admin/${email}`, {
+         fetch(`https://quickbites.onrender.com/user/admin/${email}`, {
            method: "PUT",
            headers: {
              
