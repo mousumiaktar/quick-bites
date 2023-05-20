@@ -7,7 +7,7 @@ const Welcome = () => {
     return (
         <div className='h-screen py-6'>
             <div>
-                <h2 className="text-2xl font-bold text-center mt-5">Hey, {user.displayName}!!</h2>
+                <h2 className="text-2xl font-bold text-center mt-5">Hey, {user?.displayName}!!</h2>
                 <div className="flex justify-center">
                     <h1 className='text-4xl text-center mt-4 shadow-lg inline py-6 px-4 rounded-lg'>Welcome to Dashboard</h1>
                 </div>

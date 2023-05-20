@@ -3,6 +3,7 @@ import Loading from "../../../shared/Loading";
 import Swal from "sweetalert2";
 // import { FaRegEdit } from "react-icons/fa";
 import { RiDeleteBin5Line } from "react-icons/ri";
+import { useState } from "react";
 
 const ManageFood = () => {
     const { data, isLoading, } = useGetAllFoodQuery();
@@ -10,6 +11,7 @@ const ManageFood = () => {
     if (isLoading) {
         <Loading />
     }
+    const [search, setSearch] = useState('');
 
     const [deleteFood] = useDeleteFoodMutation();
 
@@ -33,6 +35,9 @@ const ManageFood = () => {
 
     return (
         <div className="overflow-x-auto h-screen mt-5">
+            <div className="flex justify-center">
+                <input className="border-2 border-gray-500 w-[50%] py-2 px-2 rounded-lg mb-5" type="search" name="" id="" onChange={(e) => setSearch(e.target.value)} placeholder="Search for food name...." />
+            </div>
             <table className="table-auto w-full">
                 <thead className="bg-orange-500">
                     <tr>
@@ -46,7 +51,11 @@ const ManageFood = () => {
                 </thead>
                 <tbody>
                     {
-                        data?.map((food, index) => (
+                        data?.filter((food) => {
+                            return search.toLowerCase() === ''
+                              ? food
+                              : food.fname.toLowerCase().includes(search);
+                          }).map((food, index) => (
                             <>
                                 <tr>
                                     <th className="border px-4 py-2">{index + 1}</th>
