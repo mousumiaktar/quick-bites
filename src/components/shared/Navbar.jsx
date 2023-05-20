@@ -77,8 +77,8 @@ const Navbar = () => {
                                         </NavLink>
 
 
-                                        
-                                        
+
+
                                         {user ? (
                                             <>
                                                 <NavLink to="cart">
@@ -101,12 +101,11 @@ const Navbar = () => {
                                                         </div>
                                                     </li>
                                                 </NavLink>
-                                                
+
                                                 <li>
                                                     <div className="flex items-center">
                                                         <span className="relative px-2   text-orange-500 text-2xl border border-orange-500 rounded-lg">
-                                                            
-                                                            <button className="btn btn-active btn-ghost" onClick={logout}>Sign Out</button>
+                                                            <Link onClick={logout}> Logout</Link>
                                                         </span>
                                                     </div>
                                                 </li>
@@ -120,7 +119,7 @@ const Navbar = () => {
                                                 </div>
                                             </li>
                                         )}
-                                        
+
                                     </ul>
                                 </div>
                             </div>
