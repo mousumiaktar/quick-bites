@@ -10,7 +10,7 @@ import Logo from "../../images/logo.png"
 
 const Navbar = () => {
     const [user] = useAuthState(auth);
-    const list = useSelector((state) => state.cart)
+    const list = useSelector((state) => state.cart);
     // console.log(list);
 
 
@@ -77,9 +77,8 @@ const Navbar = () => {
                                         </NavLink>
 
 
-
-
-
+                                        
+                                        
                                         {user ? (
                                             <>
                                                 <NavLink to="cart">
@@ -106,7 +105,8 @@ const Navbar = () => {
                                                 <li>
                                                     <div className="flex items-center">
                                                         <span className="relative px-2   text-orange-500 text-2xl border border-orange-500 rounded-lg">
-                                                            <Link onClick={logout}>Logout</Link>
+                                                            
+                                                            <button className="btn btn-active btn-ghost" onClick={logout}>Sign Out</button>
                                                         </span>
                                                     </div>
                                                 </li>
@@ -120,6 +120,7 @@ const Navbar = () => {
                                                 </div>
                                             </li>
                                         )}
+                                        
                                     </ul>
                                 </div>
                             </div>

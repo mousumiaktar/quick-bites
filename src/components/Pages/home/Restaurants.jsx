@@ -9,9 +9,12 @@ import { useNavigate } from 'react-router-dom';
 const Restaurants = () => {
     const navigate = useNavigate();
 
-    const { data, isLoading, } = useGetRestaurantsQuery();
+    const { data, isLoading } = useGetRestaurantsQuery();
+    
     if (isLoading) {
-        <Loading />
+       
+        return<Loading />
+        // console.log("loading--")
     }
     // if (isSuccess) {
     //   console.log(data);
