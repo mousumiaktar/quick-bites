@@ -6,7 +6,7 @@ const AllReviews = () => {
     const { data, isLoading } = useGetReviewQuery();
     console.log(data);
     if (isLoading) {
-        <Loading />;
+        return <Loading />;
     }
 
 

@@ -1,7 +1,7 @@
 import auth from '../../../../firebase.init';
 import Swal from "sweetalert2";
 import { useAuthState } from 'react-firebase-hooks/auth';
-import { useDeleteOrderMutation, useGetOrderWithEmailQuery } from '../../../../features/api/ApiSlice';
+import {  useDeleteOrderMutation, useGetOrderWithEmailQuery } from '../../../../features/api/ApiSlice';
 import Loading from '../../../shared/Loading';
 import { Link } from 'react-router-dom';
 import { BsCheck2Circle } from "react-icons/bs";

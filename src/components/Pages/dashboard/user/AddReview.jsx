@@ -30,12 +30,15 @@ const AddReview = () => {
 	if (isLoading || loading) {
 		return <Loading />;
 	}
+
+	
 	if (!isLoading && isError) {
 		toast.error("Review can't added!😢");
 	}
 	if (!isError && !isLoading && isSuccess) {
 		toast.success("Review added");
 	}
+
 
 	const handleComment = e => {
 		setComment(e.target.value);
@@ -51,7 +54,7 @@ const AddReview = () => {
 	const handleMouseLeave = () => {
 		setHoverValue(undefined);
 	};
-    
+
 
 	const onSubmit = async data => {
 		const uploadReview = {
@@ -61,7 +64,7 @@ const AddReview = () => {
 			rating: rating,
 			date: new Date().toDateString(),
 		};
-        console.log(uploadReview);
+
 
 		if (!isLoading || isSuccess) {
 			addReveiw(uploadReview);
@@ -71,13 +74,13 @@ const AddReview = () => {
 
 	return (
 		<div className='w-full p-10 lg:w-1/2 mx-auto h-screen'>
-			
+
 			<h1 className='text-2xl text-center text-primary mb-2'>
 				Write Your Opinion About <span className="font-bold text-red-500">Quick-Bites</span>
 			</h1>
 			<form onSubmit={handleSubmit(onSubmit)} className='card-body pb-0'>
 				<div className='avatar mx-auto flex-col items-center gap-3'>
-					
+
 					<h2 className='text-2xl font-bold text-center mb-2'>{user?.displayName}</h2>
 				</div>
 

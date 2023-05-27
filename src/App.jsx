@@ -66,7 +66,7 @@ function App() {
           </RequireAuth>
         }></Route>
 
-      {/* MENU FOOD */}
+        {/* MENU FOOD */}
 
         <Route path="/breakfast" element={
           <RequireAuth>
@@ -112,14 +112,18 @@ function App() {
 
         <Route path="/party" element={
           <RequireAuth>
-           <Party />
+            <Party />
           </RequireAuth>
         }></Route>
 
 
 
-        <Route path="/dashboard" element={<Dashboard />}></Route>
-        <Route path="/dashboard" element={<Dashboard />}>
+
+        <Route path="/dashboard" element={
+          <RequireAuth>
+            <Dashboard />
+          </RequireAuth>
+        }>
           <Route index element={<Welcome />}></Route>
           <Route path="profile" element={<Profile />}></Route>
           <Route path="myorder" element={<MyOrder />}></Route>

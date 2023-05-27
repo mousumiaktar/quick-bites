@@ -5,6 +5,7 @@ import Swal from "sweetalert2";
 import { RiDeleteBin5Line } from "react-icons/ri";
 import { useState } from "react";
 
+
 const ManageFood = () => {
     const { data, isLoading, } = useGetAllFoodQuery();
     // console.log(data);
