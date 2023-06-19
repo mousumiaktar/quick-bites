@@ -2,6 +2,7 @@ import { AiFillStar } from "react-icons/ai";
 import { useGetReviewQuery } from "../../../../features/api/ApiSlice";
 import Loading from "../../../shared/Loading";
 
+
 const AllReviews = () => {
     const { data, isLoading } = useGetReviewQuery();
     console.log(data);
@@ -16,7 +17,6 @@ const AllReviews = () => {
             <div className="md:grid grid-cols-3 gap-4 mt-5">
                 {data?.map((review) => (
                     <>
-
                         <div>
                             <div className="card border p-6 rounded-xl h-[200px]">
                                 <p>
@@ -36,9 +36,10 @@ const AllReviews = () => {
                                 </div>
                             </div>
                         </div>
-
                     </>
+
                 ))}
+
 
             </div>
 

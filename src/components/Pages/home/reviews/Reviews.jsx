@@ -1,9 +1,9 @@
 import { AiFillStar } from "react-icons/ai";
+import { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import "swiper/css/free-mode";
 import "swiper/css/pagination";
-import { FreeMode, Pagination } from "swiper";
+
 import { useGetReviewQuery } from "../../../../features/api/ApiSlice";
 import Loading from "../../../shared/Loading";
 
@@ -22,14 +22,27 @@ const Reviews = () => {
                     What People Say About Us
                 </h1>
                 <Swiper
-                    slidesPerView={3}
-                    spaceBetween={30}
-                    freeMode={true}
+                    slidesPerView={1}
+                    spaceBetween={10}
                     pagination={{
-                        clickable: true,
+                      clickable: true,
                     }}
-                    modules={[FreeMode, Pagination]}
-                    className="mySwiper"
+                    breakpoints={{
+                      "@0.75": {
+                        slidesPerView: 2,
+                        spaceBetween: 10,
+                      },
+                      "@1.00": {
+                        slidesPerView: 2,
+                        spaceBetween: 10,
+                      },
+                      "@1.50": {
+                        slidesPerView: 3,
+                        spaceBetween: 10,
+                      },
+                    }}
+                    modules={[Pagination]}
+                    className="place-items-center"
                 >
                     {data?.map((review) => (
                         <>
